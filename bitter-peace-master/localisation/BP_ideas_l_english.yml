@@ -1,0 +1,555 @@
+﻿l_english:
+
+#################################################################################################################################
+# Danzing #######################################################################################################################
+#################################################################################################################################
+
+danzig_ist_deutsch:0 "Danzig is German"
+danzig_ist_deutsch_desc:0 "§WSet the rule: £trigger_yes Can decline call to war§!\nThe City of Danzig is made up of a majority of Germans. They wish only to reunited with the German state. Though local politicians try to keep that sentiment under wraps...for now..."
+
+DNZ_generic_democratic_reformer:0 "Hermann Rauschning"
+DNZ_generic_fascist_demagogue:0 "Wilhelm von Wnuck"
+DNZ_generic_communist_revolutionary:0 "Richard Müller"
+DNZ_albert_forster:0 "Albert Forster"
+DNZ_edmund_beyl:0 "Edmund Beyl"
+DNZ_helmut_froboss:0 "Helmut Froböss" 
+DNZ_helmut_froboss2:0 "Helmut Froböss"
+danzigerwerft:0 "Danzigerwerft"
+
+#################################################################################################################################
+# Italy #########################################################################################################################
+#################################################################################################################################
+
+ITA_dubats:0 "Dubats"
+ITA_dubats_desc:0 "The Dubats were an Italian irregular army in Italian East Africa from 1924 to 1941. The name "Dubats" was made up of two Somali words that translate as 'white turban'.\nThe Dubats served as the gendarmerie of Italian Somalia, and were also border guards of Somalia from enemy attacks."
+
+#################################################################################################################################
+# USSR ##########################################################################################################################
+#################################################################################################################################
+
+SOV_sacred_war:0 "The Sacred War"  
+SOV_sacred_war_desc:0 "The Fascists and their ilk have declared war on The Soviet Union, and are pouring across the borders into our villages! They must be stopped!"
+
+SOV_sacred_war2:0 "The Sacred War"  
+SOV_sacred_war2_desc:0 "The Fascist scum drive deeper and deeper into the heart of our motherland. Villages, towns, and cities alike lie devastated in their wake. They will pay for this..."
+
+SOV_sacred_war3:0 "The Sacred War"
+SOV_sacred_war3_desc:0 "The enemy stands at the gates! Our glorious nation teeters on the brink of collapse, and all must grab their arms and fight for their homes, for their families, for their very existence! Za Rodinu, vperyod!"
+
+SOV_sour_loser_ussr:0 "Bitter Peace" 
+SOV_sour_loser_ussr_desc:0 "We have been defeated - our greatest cities now either lie in the control of the enemy, or are smoking ruins. We may be on our knees now, but one day, we will take the fight to their land, their people, their blood..."
+
+SOV_stalin_dead:0 "Demoralized Army"
+SOV_stalin_dead_desc:0 "As a result of the recent shocking turn of events, our troops are terribly demoralized, and cannot fight with normal efficiency."
+ 
+SOV_civilian_incoming:0 "Refugee Flow"
+SOV_civilian_incoming_desc:0 ""
+ 
+#################################################################################################################################
+# Iraq ##########################################################################################################################
+#################################################################################################################################
+
+IRQ_british_influense:0 "British Influense"
+IRQ_british_influense_desc:0 "In 1920, the Ottoman vilayets Mosul, Basra and Baghdad created the state of Iraq. The League of Nations conference placed him under the provisional administration of Britain. Around the same years, Iraq was found to be rich in oil. The British had no desire to leave the country, although they had to do so no later than 1930. The Anglo-French concerns gradually took over all the oil fields and the real power in the country. The government and king Ghazi of Iraq ruled only on a technicality. In fact, everything was decided by the representatives of London. This state of Affairs was consolidated by the Anglo-Iraqi Treaty of 1930." 
+ 
+#################################################################################################################################
+# Switzerland ###################################################################################################################
+#################################################################################################################################
+
+SWI_national_redoubt:0 "National Redoubt"
+SWI_national_redoubt_desc:0 "The National Redoubt, also the Swiss Redoubt, is a defensive plan developed by the government of Switzerland in the late 19th century to repel foreign attacks. At the beginning of WWII, the plan was expanded and refined to counter the potential invasion of Nazi Germany, which was planned, but never took place.The term "Redoubt" originally refers to a system of fortifications built since the 1880s to protect Central Switzerland as a fortified area for the retreat of the Swiss army. It was a complex of fortifications in the Alps along the lines of "East-West" with the three main fortresses: Saint-Maurice, Saint Gotthard and Sargans. These fortresses primarily defended the Alpine passages between Germany and Italy and did not cover the industrial densely populated interior of Switzerland. Inland areas, in turn, were under the protection of fortifications, "Borderline" and "Army line" — a significant, but non insurmountable. On the contrary, the redoubt complex of structures is designed as completely impregnable, which would not give the aggressor the opportunity to cross the Alps from North to South through mountain passes or railway tunnels. This strategy was to contain any invasion, making it meaningless because of the impossibility of using the Swiss transport infrastructure." 
+
+SWI_conscription:0 "Swiss Mobilization"
+SWI_conscription_desc:0 "Being such a small country, we do not have a large enough pool of manpower to draw strictly volunteers from. Every man of fighting age must do his part."
+ 
+#################################################################################################################################
+# Germany #######################################################################################################################
+#################################################################################################################################
+
+bp_heinrich_himmler:0 "Heinrich Himmler"
+bp_heinrich_himmler_desc:0 "Initially, only ethnic Germans were allowed to serve in the SS. However, to preserve purity German blood, Himmler forced was allow serve in SS volunteers from the Netherlands and Scandinavia — precisely the Dutch and Scandinavians were the most close Germans on anthropological and psychological indicators. As the war progressed, the situation of the German troops deteriorated, and soon Himmler issued an order for the admission of representatives of non-German peoples to the service."
+
+heinrich_himmler_desc:0 "Initially, only ethnic Germans were allowed to serve in the SS. However, to preserve purity German blood, Himmler forced was allow serve in SS volunteers from the Netherlands and Scandinavia — precisely the Dutch and Scandinavians were the most close Germans on anthropological and psychological indicators. As the war progressed, the situation of the German troops deteriorated, and soon Himmler issued an order for the admission of representatives of non-German peoples to the service."
+
+joseph_goebbels_desc:0 "Minister of propaganda and President of the Imperial chamber of culture, Joseph Goebbels concentrated in his hands all the necessary levers of control of the press, radio, cinema and other spheres of German culture. Through a combination of demagogic rhetoric, skillful staging of mass events and the effective use of modern technology - especially radio and film-for propaganda purposes, he managed to indoctrinate the broad strata of the German people with the ideas of national socialism and to discredit the Communists, social Democrats, Jews and ministers of the Church."
+
+GER_crystal_night:0 "Crystal Night"
+GER_crystal_night_desc:0 "Window fronts shattered, store and shops torched, and synagogues set alight - did we do that?"
+
+GER_TUR_pact:0 "German-Turkish Treaty"
+GER_TUR_pact_desc:0 "German-Turkish Treaty facilitated Germany's attack on the USSR and allowed it to make extensive use of Turkey's formal neutrality to the detriment of the interests of the USSR and other freedom-loving peoples. Turkey supplied Germany with valuable raw materials, in particular chromium, violated in favor of Germany the provisions of the Convention on the Straits, signed in Montreux, allowed on its territory active fascist propaganda and espionage."
+
+GER_barbarossa_challenge:0 "Logistical Challenges"
+GER_barbarossa_challenge_desc:0 "The Soviet Union is vast unlike any other country we have invaded thus far - and puts enormous strain on our supply lines. Not to mention the partisan activities wreaking havoc on truck convoys and railway systems..."
+
+GER_spoils_from_east:0 "Spoils from the East"
+GER_spoils_from_east_desc:0 "Our Eastern offensives have reaped us great rewards, not only in land, but in supplies and other commodities as well."
+
+GER_logistic_costs:0 "Logistic Costs"
+GER_logistic_costs_desc:0 ""
+
+GER_logistic_costs1:0 "Logistic Costs"
+GER_logistic_costs1_desc:0 ""
+
+GER_logistic_costs2:0 "Logistic Costs"
+GER_logistic_costs2_desc:0 ""
+
+GER_logistic_costs3:0 "Logistic Costs"
+GER_logistic_costs3_desc:0 ""
+
+GER_grosraumwirtschaft1:0 "Großraumwirtschaft"
+GER_grosraumwirtschaft1_desc:0 "Germany is destined to become the center of Europe. Our infrastructure will bind together the West with the East, and the South with the North."
+
+GER_grosraumwirtschaft2:0 "Großraumwirtschaft"
+GER_grosraumwirtschaft2_desc:0 "Germany is destined to become the center of Europe. Our infrastructure will bind together the West with the East, and the South with the North." 
+
+GER_soviet_exodus:0 "Population Exodus"
+GER_soviet_exodus_desc:0 ""
+
+reinhard_heydrich:0 "Reinhard Heydrich"
+reinhard_heydrich_desc:0 "Himmlers Hirn heißt Heydrich\n \nHeydrich was a high-ranking German Nazi official. He was chief of the Reich Main Security Office (including the SD, Gestapo and Kripo) and Deputy Reich-Protector of Bohemia and Moravia."
+heydrich_was_killed:0 "Heydrich was killed"
+
+#################################################################################################################################
+# Polish General Government #######################################################################################################
+#################################################################################################################################
+
+### Ideas
+
+PGG_hans_frank_administration:0 "Администрация Ганса Франка"
+PGG_hans_frank_administration_desc:0 "Ликвидация и раздел польского государства ставит перед нами задачи обеспечения эффективного управление захваченными территориями. Кроме того, создание квази-автономного формирования на польских территориях может стать аргументом для переговоров с Западными странами на счёт перемирья."
+
+PGG_blue_police1:0 "Hilfspolizei"
+PGG_blue_police1_desc:0 "Hilfspolizei - «вспомогательная полиция», которая формировалась оккупированных территориях, как правило, из добровольцев и военнопленных (прежде всего, в крупных городах) и местного населения. Подобные полицейские организации существовали во всех оккупированных странах. Отличались значительным разнообразием форм организации."
+
+PGG_german_propaganda:0 "Немецкая пропаганда"
+PGG_german_propaganda_desc:0 "Для эффективного управление общественным мнением населения необходимо установить прочный контроль над радио, печатью и всеми средствами информации пока это не сделали наши идеологические  враги внутри и снаружи."
+
+PGG_extraordinary_actions:0 "Акции по умиротворению"
+PGG_extraordinary_actions_desc:0 "Операция по переводу отрядами СС и гестапо политической и культурной интеллигенции в Генерал-Губернаторстве  в концентрационные лагеря, во время Второй мировой войны, разработанная и проконтролированная Гансом Франком и его заместителем Артуром Зейс-Инквартом."
+
+PGG_blue_police2:0 "Hilfspolizei"
+PGG_blue_police2_desc:0 "Hilfspolizei - «вспомогательная полиция», которая формировалась оккупированных территориях, как правило, из добровольцев и военнопленных (прежде всего, в крупных городах) и местного населения. Подобные полицейские организации существовали во всех оккупированных странах. Отличались значительным разнообразием форм организации."
+
+PGG_hj_idea:0 "Гитлерюгенд"
+PGG_hj_idea_desc:0 "Политика германизации требует воспитания наиболее расово-ценных представителей польского народа в идеалах национал-социализма"
+
+PGG_volksdeutsche:0 "Германские колонисты"
+PGG_volksdeutsche_desc:0 "Старая германская колониальная политика рассматривалась как меркантильная и состоящая под еврейским влиянием. Необходимым считалось пространство для «всегермански» ориентированной «поселенческой политики в крупном масштабе». Для этого рассматривались не внеевропейские колонии, а «непосредственно граничащий с Германским Отечеством Восток."
+
+### Advisers ###
+
+### Politics
+
+PGG_wilhelm_heuber:0 "Wilhelm Heuber"
+PGG_wilhelm_heuber_desc:0 "German politician, doctor of law. Heuber was one of the founders of the Academy of German law in the Third Reich. On October 3, 1933, he was appointed a member of the Presidium of the Academy of German law, and from January 1, 1936, a member of the Reichsrechtsführung. From November 1933 to 1945, Heuber was a member of the Reichstag.\nAfter the occupation of Poland, Heuber was appointed "Bevollmächtigter des Generalgouverneurs" (Authorized representative of the Governor-General) in Berlin."
+
+PGG_walter_emmerich:0 "Walter Emmerich"
+PGG_walter_emmerich_desc:0 "German economist and statesman.\n \nHe joined the SA in 1933 and the NSDAP in 1937. After the outbreak of World War II, Emmerich headed the General economic Department of the Generalgouvernement (GG) from June 1940 to January 1945. He also headed the Department of the four-year plan in GG. In particular, he participated in the 'arianization' of Jewish businesses and other anti-Jewish activities."
+
+PGG_goering1:0 "Hermann Goering"
+PGG_goering1_desc:0 "On October 18, 1936, Hermann Goering was appointed Commissioner for the 4-year plan, and in his hands was concentrated all the leadership of economic measures to prepare Germany for war — to the detriment of the Imperial ministries of economy and Finance. In July 1937, a huge state concern "Hermann Goering Werke" ("Reichswerke AG für Erzbergbau und Eisenhütten Hermann Goering") was created, which took over the numerous factories confiscated from the Jews, and later — factories in the occupied territories."
+
+PGG_herman_sienkowski:0 "Hermann Senkowsky"
+PGG_herman_sienkowski_desc:0 "Austrian customs officer and SS-Führer. He also was chief president finance of the General Government, which would correlate to finance minister of occupied Poland in World War II."
+
+PGG_josef_buhler:0 "Josef Bühler"
+PGG_josef_buhler_desc:0 "State secretary and deputy governor to the Nazi Germany-controlled General Government in Kraków during World War II."
+
+PGG_richard_wendler:0 "Richard Wendler"
+PGG_richard_wendler_desc:0 "German lawyer, leader of the NSDAP and the SS, from August 1941 SS-Gruppenführer and Lieutenant-General of Police.\n \nOn September 19, 1939, he was appointed Stadtkommissar of Czestochowa in Poland. While in this position, he decided to organize a Jewish ghetto.\nFrom September 14, 1939 to June 6, 1940 at the same time, Stadtkommissar of Kielce.\nIn June 1940 — 4 Aug 1941 — Stadtgasse the city of Radom.\nСFrom 31 January 1942 to 26 may of the same year, he served as Governor of the District of Krakau, and between 27 may 1943 and 22 July 1944 as Governor of the District of Lublin. He took part in the creation of the Majdanek concentration camp."
+
+PGG_theodor_bauder:0 "Theodor Bauder"
+PGG_theodor_bauder_desc:0 "German civil engineer and statesman, member of the SA.\n \nIn September 1934, Bauder joined the SA and rose to the rank of SA-Oberführer in April 1943. Bauder was a recipient of the Golden NSDAP party badge and worked for the party as Gauamtsleiter. As a civil servant, Bauder rose to the position of President of the technical state office in Ludwigsburg. After the creation of the protectorate of Bohemia and Moravia, Bauder headed the road construction group in the Protectorate of Bohemia and Moravia with the local Reichsprotektor Konstantin Freiherr von Neurath.\n \nAfter the outbreak of the WWII, Bauder headed the newly established Department of Civil Engineering in the administration of the Generalgouvernement (GG) from 28 February 1940 to 17 January 1945. In this capacity, Bauder later held the title of President of the Department of Civil Engineering at the GG. In addition, from the beginning of March 1940, Bauder was the liaison between §HHauptamt für Technik§! and Governor-General §HHans Frank§!. From March 1943 to July 1944 he headed the Central Technical Office in the GG. In addition, he was general plenipotentiary for construction in the GG until 17 January 1945."
+GER_bauder_hft:0 "\nHaving Bauder in your cabinet will allow to complete the focus §YHauptamt für Technik§!.\n"
+
+PGG_max_frauendorfer:0 "Max Frauendorfer"
+PGG_max_frauendorfer_desc:0 "German lawyer, SS-Obersturmbannführer, Reich training leader in the Rosenberg's office and president of the main office work in the Generalgouvernement (GG).\n \nAfter the outbreak of the WWII, Frauendorfer was transferred to the GG. On November 18, 1939, §HHans Frank§! appointed Frauendorfer as Director of the General Directorate of labor, where he was responsible for coordinating the registration, forced recruitment, and labor deployment of Polish and Jewish workers.\nFrauendorfer initially relied on recruiting 'voluntary' employees from government agencies and rejected coercive measures in this regard. However, since not enough Polish volunteers volunteered to work in the German Reich, from the spring of 1940, Polish communities were required to send a certain contingent of workers to work in the Reich. Since Frauendorfer did not meet the requirements of the civil service for the title of State Councilor, He was appointed at the end of September 1941 as "Reichskommissar of labor".\n \nAware since mid-December 1941 of the 'Final solution' plans, Frauendorfer preferred to exploit Polish Jews as labor, and thus came into conflict with the 'final solution fanatics' from the RSHA. As a result, responsibility for the work of the Jewish population was transferred to §HFriedrich Kruger§! in June 1942. Frauendorfer agreed with Himmler in October 1942 to honorably retire and transfer to the Waffen-SS after a leave of absence."
+
+PGG_odilo_globocnik:0 "Odilo Globočnik"
+PGG_odilo_globocnik_desc:0 "Austrian-born statesman and politician in Nazi Germany, SS-Gruppenfuhrer and General-Lieutenant of Police (1942).\nCommissioner of the Reichsfuhrer SS for the establishment of the SS structure and concentration camps in the territory of the Generalgouvernement. As an associate of Adolf Eichmann, he played a leading role in Operation 'Reinhard', during which more than a million Polish Jews were killed in the Nazi death camps of Majdanek, Treblinka, Sobibor and Belzec during the Holocaust.\nIn his personal file there was this characteristic: "Recklessness and cunning often lead him to violate established boundaries, even within the SS order", the historian Michael Allen called him "the most vile person in the most vile organization ever known"."
+
+PGG_ernst_lerch:0 "Ernst Lerch"
+PGG_ernst_lerch_desc:0 "SS-Sturmbannfuhrer, one of the organizers of operation Reinhard for the systematic extermination of Jews and Gypsies in the Generalgouvernement (GG) (1942-1943).\n \nFrom February 1940 to September 1941, Lerch was an employee of the RSHA. He worked in Berlin until his appointment as head of the race and settlement service in Krakow (Rasse-und Siedlungsführer). From 21 July 1942 SS-Sturmbannfuhrer. In 1941-1943, Lerch was an aide-de-camp to the chief of police and SS of the Lublin district, responsible for the extermination of more than two million Jews and 50,000 Roma in GG. Participated in the destruction of the Warsaw and Bialystok ghettos (1943). He was personally responsible for the murder of thousands of people in Lublin."
+
+PGG_waclaw_krzeptowski:0 "Wacław Krzeptowski"
+PGG_waclaw_krzeptowski_desc:0 "Polish public figure, collaborator and head of the organization Goralisches Komitee.\n \nOn November 12, 1939, he met Hans Frank during his visit to Zakopane. After receiving the appropriate powers from Hans Frank, he began to engage in administrative activities among the gurals, which were declared by the German authorities to be separate from the poles by the people of Goralenfolk."
+
+### Military
+
+# Army Chief
+PGG_curt_ludwig_von_gienanth:0 "Curt Ludwig von Gienanth"
+PGG_curt_ludwig_von_gienanth_desc:0 "German officer, General of the Cavalry and commander of the Wehrmacht in the Generalgouvernement of Poland in the period from July 1940 to September 1942.\n \nGienanth as an officer of the old school could not work with §HHans Frank§! and §HFriedrich Kruger§!, because he thought the task of subordinate forces, not repression against the civilian population, and the bearing functions purely of the occupation forces, as a result of several conflicts on this ground was dismissed in 1942."
+
+PGG_siegfried_haenicke1:0 "Siegfried Haenicke"
+PGG_siegfried_haenicke1_desc:0 "German officer and General of the Infantry, he took the post of commander of the Wehrmacht in the Generalgouvernement of Poland (GG) after §HCurt Ludwig von Gienanth§!.\nAt the beginning of WWII, he participated in Polish campaign as part of the III army. On November 1, 1939, Haenicke was promoted to Lieutenant-General. He then commanded a division in the Western Campaign and during the invasion of the Soviet Union. On April 27, 1942, he was transferred to the Führerreserve (eng. Command Reserve). With simultaneous promotion to General of the Infantry on 1 April 1942, Henike was appointed commander of the XXXVIII army corps.\nFrom 1 July to 30 September 1942, he was again at the Führerreserve and subsequently served first as Wehrkreis-Befehlshaber of Krakau and then as commander of the Wehrmacht in the GG. In October 1943, he ordered the participation of the Wehrmacht in suppressing the uprising of prisoners in the Sobibor extermination camp."
+
+# Air Chief
+PGG_goering2:0 "Hermann Goering"
+PGG_goering2_desc:0 "On October 18, 1936, Hermann Goering was appointed Commissioner for the 4-year plan, and in his hands was concentrated all the leadership of economic measures to prepare Germany for war — to the detriment of the Imperial ministries of economy and Finance. In July 1937, a huge state concern "Hermann Goering Werke" ("Reichswerke AG für Erzbergbau und Eisenhütten Hermann Goering") was created, which took over the numerous factories confiscated from the Jews, and later — factories in the occupied territories."
+
+# Navy Chief
+PGG_raeder:0 "Erich Raeder"
+PGG_raeder_desc:0 "Erich Raeder was a German admiral who favored the use of traditional surface ships and the Fleet in Being doctrine."
+
+# High Command
+PGG_siegfried_haenicke2:0 "Siegfried Haenicke"
+PGG_siegfried_haenicke2_desc:0 "German officer and General of the Infantry, he took the post of commander of the Wehrmacht in the Generalgouvernement of Poland (GG) after §HCurt Ludwig von Gienanth§!.\nAt the beginning of WWII, he participated in Polish campaign as part of the III army. On November 1, 1939, Haenicke was promoted to Lieutenant-General. He then commanded a division in the Western Campaign and during the invasion of the Soviet Union. On April 27, 1942, he was transferred to the Führerreserve (eng. Command Reserve). With simultaneous promotion to General of the Infantry on 1 April 1942, Henike was appointed commander of the XXXVIII army corps.\nFrom 1 July to 30 September 1942, he was again at the Führerreserve and subsequently served first as Wehrkreis-Befehlshaber of Krakau and then as commander of the Wehrmacht in the GG. In October 1943, he ordered the participation of the Wehrmacht in suppressing the uprising of prisoners in the Sobibor extermination camp."
+
+PGG_wilhelm_koppe:0 "Wilhelm Koppe"
+PGG_wilhelm_koppe_desc:0 "One of the leaders of the occupation regime in Poland, SS-Obergruppenfuhrer and Police General (30 January 1942), SS General (1 July 1944)."
+
+PGG_friedrich_kruger:0 "Friedrich Krüger"
+PGG_friedrich_kruger_desc:0 "One of the leaders of the occupation regime in Poland, SA-Obergruppenfuhrer (1934), SS Obergruppenfuhrer (25 January 1935), SS General (20 may 1944), Police General (8 August 1944)."
+
+# Theorist
+
+PGG_heinz_guderian:0 "Heinz Guderian"
+PGG_heinz_guderian_desc:0 ""
+
+PGG_ernst_udet:0 "Ernst Udet"
+PGG_ernst_udet_desc:0 "Ernst Udet was influential in the adoption of dive bombing techniques as well as the Stuka dive bomber."
+
+PGG_otto_ciliax:0 "Otto Ciliax"
+PGG_otto_ciliax_desc:0 ""
+
+# Manufacturer
+
+PGG_ig_faben:0 "IG Farben"
+PGG_ig_faben_desc:0 "IG Farben are keenly interested in Industrial research."
+
+PGG_siemens:0 "Siemens"
+PGG_siemens_desc:0 ""
+
+PGG_RHG:0 "Reichswerke Hermann Göring"
+PGG_RHG_desc:0 "A giant financial and industrial Corporation, created in 1937 on the initiative of Goering to increase the production of high-quality steel, necessary for the implementation of the program of re-equipment of Germany.\nAfter the Anschluss of Austria and the occupation of Czechoslovakia, up to 60% of the assets of these countries were owned by the Reichswehr, including the production of weapons."
+
+PGG_DAW:0 "DAW"
+PGG_DAW_desc:0 "Deutsche Ausrüstungswerke (DAW; literally the German Equipment Works)\nDAW was a defense contractor with headquarters in Berlin during World War II, owned and operated by the Schutzstaffel (SS). It consisted of a network of requisitioned factories and camp workshops across German-occupied Europe exploiting the prisoner slave labour from Nazi concentration camps and the Jewish ghettos in German-occupied Poland. DAW outfitted the German military with boots, uniforms and materials on the eastern front at a windfall profit, provided wood and metal supplies, as well as reconstruction work on railway lines and freight trains."
+
+#################################################################################################################################
+# RK Netherlands ################################################################################################################
+#################################################################################################################################
+
+anton_mussert:0 "Anton Mussert"
+anton_mussert_desc:0 "The founder of the National-Socialist Movement in the Netherlands (NSB). During the German occupation of the country, the "Leider" (leader), became the head of the puppet government. After the war he was captured by the allies and executed."
+net_leider:0 "Leader of the NSB"
+ 
+#################################################################################################################################
+# RK Ukraine ####################################################################################################################
+#################################################################################################################################
+
+### Ideas
+ 
+RKU_german_occupy_administration:0 "Koch's Administration"
+RKU_german_occupy_administration_desc:0 "After the expulsion of the Bolsheviks from the Ukraine, we need to organize an effective political and administrative management of these areas to ensure reliable, economic rear for the Reich."
+
+RKU_anti_jew_pogroms:0 "Jewish Pogrom's"
+RKU_anti_jew_pogroms_desc:0 "The destruction of the Jewish population was made possible thanks to the complicity of local Ukrainian residents. The Germans would not have been able to reach the destroyed communities themselves, especially those in remote villages and villages.\n \nLviv pogroms occurred on June 30-July 2 and July 25-29, 1941 during Operation Barbarossa. Ukrainian nationalists and the Ukrainian militia created by them killed six thousand Jews during the Lviv pogroms.\n \nThe reason for the pogroms was the fact that the Commissars of Jewish origin were responsible for the execution of prisoners. Ukrainian nationalists also helped the German security police and Einsatzgruppen. They made lists of people dangerous to the authorities, handed over to the security police and helped to make arrests and mass shootings (in Stanislav, Vladimir-Volyn, Lutsk) as well as in Zhitomir and Kiev."
+
+RKU_german_occupy_administration_germanization:0 "German Occupation Administration"
+RKU_german_occupy_administration_germanization_desc:0 "It is not in the interests of the Reich to negotiate with representatives of the conquered peoples.\n \n "Lebensraum" on the East should belong only to the Germans, and we will not share it with anyone!"
+
+RKU_RSHA:0 "Department of RSHA"
+RKU_RSHA_desc:0 "The implementation of the policy of Germanization in Ukraine requires the formation of a specialized Department of the security police, which is able to ensure the implementation of the New Order."
+
+RKU_security_service_idea:0 "Security Service"
+RKU_security_service_idea_desc:0 "To ensure the security of the State, it is necessary to form its own Department, which would replace the German security police, SD and Gestapo."
+
+RKU_oun_bandera_government:0 "Government of Stepan Bandera"
+
+RKU_oun_melnic_government:0 "Government of Andrey Melnik"
+
+RKU_racial_decrees_idea:0 "Racial Decrees"
+RKU_racial_decrees_idea_desc:0 "In coordinating our actions with Germany, we are forced to issue a number of Anti-Jewish and Anti-Roma laws that would significantly reduce the participation of these peoples in social, economic and political life. In exchange, we can get a lot of favor from the Germans."
+
+RKU_arrest_oun_b:0 "Problems with OUN (b)" 
+RKU_arrest_oun_b_desc:0 "Despite the fact that a significant part of the Bandera wing of the OUN went over to our side, after the establishment of our government, Bandera himself with his associates took a confrontational position in relation to our regime. It is necessary to arrest opposition groups, otherwise they will revolt"
+
+RKU_arrest_oun_b_0:0 "Problems with OUN (b)" 
+RKU_arrest_oun_b_0_desc:0 "Despite the fact that a significant part of the Bandera wing of the OUN went over to our side, after the establishment of our government, Bandera himself with his associates took a confrontational position in relation to our regime. It is necessary to arrest opposition groups, otherwise they will revolt"
+
+RKU_arrest_oun_m:0 "Problems with OUN (m)" 
+RKU_arrest_oun_m_desc:0 "Despite the fact that a significant part of the Melnikov wing of the OUN came over to our side, after the establishment of our government, Melnik himself with his associates took a confrontational position towards our regime. It is necessary to arrest opposition groups, otherwise they will revolt"
+
+RKU_communist_underground_idea:0 "Communist Guerrillas"
+RKU_communist_underground_idea_desc:0 "The implementation of plans for Germanization intensified the activities of Pro-Communist guerrilla groups"
+
+RKU_communist_underground_0:0 "Communist Guerrillas"
+RKU_communist_underground_0_desc:0 "The implementation of plans for Germanization intensified the activities of Pro-Communist guerrilla groups"
+
+RKU_german_propaganda_idea:0 "German Propaganda"
+RKU_german_propaganda_idea_desc:0 "For the effective management of public opinion of the population it is necessary to establish strong control over radio, print and all media yet did not do our ideological enemies inside and outside"
+
+RKU_ukrainian_propaganda:0 "Chamber of People's Education"
+RKU_ukrainian_propaganda_desc:0 "Having formed a relatively independent government, we can begin to form a specialized Department that would form a more profitable information agenda in society"
+
+RKU_ukrainian_constitution_idea:0 "Ukrainian Constitution"
+RKU_ukrainian_constitution_idea_desc:0 "For strengthen the foundations of our reign it is necessary to form a regulatory document, laying the foundations of our statehood"
+
+RKU_national_mobilization_idea:0 "People's Mobilization "
+RKU_national_mobilization_idea_desc:0 "It is vital to mobilize and prepare our people for the national liberation war using propaganda and administrative tools"
+
+RKU_restoration_of_kolkhoz_system_idea:0 "Restoration of Kolkhoz system"
+RKU_restoration_of_kolkhoz_system_idea_desc:0 "The collective farm system is economically inefficient. At the same time, in a dilapidated country, we must use all possible economic methods for the economic recovery of the region"
+
+RKU_slave_economic_system_idea:0 "Slave Economic System"
+RKU_slave_economic_system_idea_desc:0 "For ensuring economic needs of the Reich, we must form an economic system focused on the maximum exploitation of local population, industrial and mineral resources, despite the fact that this will put the locals in the rank of second-class people"
+
+RKU_balanced_economic_system_idea:0 "Balanced Economic System"
+RKU_balanced_economic_system_idea_desc:0 "We can create an economic system that will make it possible to exploit human and productive resources less harshly. On the one hand - it will reduce the likelihood of resistance of local residents, and on the other - will increase their more effective involvement in our production hierarchy"
+
+RKU_ostarbeiter_down:0 "Exported Labor Force"
+RKU_ostarbeiter_down_desc:0 "The departure of albuterol will reduce our production and economic potential, at least for a while..."
+
+RKU_schutzmannschaft_idea:0 "Schutzmannschaft"
+RKU_schutzmannschaft_idea_desc:0 ""
+
+RKU_ukrainian_liberation_army_idea:0 "Ukrainian Liberation Army"
+RKU_ukrainian_liberation_army_idea_desc:0 "ULA was a volunteer formation created from prisoners of the Soviet army of Ukrainian nationality, and was subordinate to the Wehrmacht"
+
+RKU_rearmament_idea:0 "Rearmament"
+RKU_rearmament_idea_desc:0 "The military situation pushes us to increase military production and the formation of professional staff"
+
+RKU_war_academy_idea:0 "Ivan Bohun Military Academy"
+RKU_war_academy_idea_desc:0 "We would like to see talented generals at the helm of our armed forces, and for this we need to expand the military Academy"
+
+RKU_coastal_wall_idea:0 "Coastal Defense"
+RKU_coastal_wall_idea_desc:0 ""
+
+RKU_abwer_idea:0 "Abwehr's Intelligence School"
+RKU_abwer_idea_desc:0 "With the deployment of military operations, German intelligence began to expand the network of reconnaissance and sabotage schools for the training of skilled agents. Agents for training were recruited mainly among prisoners of war, the Anti-Soviet element defected to the Germans, and Anti-Soviet citizens remaining in the occupied territory of the USSR"
+
+RKU_hj_idea:0 "Hitlerjugend"
+RKU_hj_idea_desc:0 "Policy of Germanization requires the education of the most racially-valuable representatives of the Ukrainian people in the ideals of national socialism"
+
+RKU_plast_idea:0 "Plast"
+RKU_plast_idea_desc:0 "Ukrainian Scout movement type that occurred following the European youth movements in 1911 on the territory of Ukraine, which was at that time part of Austria-Hungary. For the formation of Patriotic spirit it is necessary to restore the movement, which would be analogous to the German «Hitlerjugend», but with Ukrainian national connotation"
+
+RKU_ukrainian_national_army_idea:0 "Ukrainian National Army"
+RKU_ukrainian_national_army_idea_desc:0 "After the formation of the Ukrainian government in the country began to return to Ukrainian political exiles, including former officers of the UNR and ZUNR, which is actively join to the new formation of the Ukrainian army"
+
+RKU_ukrainian_insurgent_army_idea:0 "Ukrainian Insurgent Army"
+RKU_ukrainian_insurgent_army_idea_desc:0 "Underground military organization, armed wing of the OUN. Acted in the territories that were part of the Governor-General (Galicia, Kholmshchina), reichskomissariat Ukraine (Volyn), and Romanian Transnistria (Transnistria, Northern Bukovina).Some groups operate on the territory of Eastern Ukraine, the Donbas, and even in the Kuban"
+
+RKU_hilfspolizei_idea:0 "Hilfspolizei" 
+RKU_hilfspolizei_idea_desc:0 "In the occupied territories auxiliary police were formed, usually from volunteers, prisoners of war (primarily in large cities) and the local population. Similar police organizations existed in all occupied countries. Distinguished by a significant variety of forms of organization"
+
+RKU_acquire_licenses_idea:0 "License Acquisition"
+RKU_acquire_licenses_idea_desc:0  "In the aviation technology, we are noticeably inferior to other countries. It is necessary to think about the acquisition of licenses for the production of the most innovative aircraft in our country"
+
+RKU_tank_licenses_idea:0 "Tank License"
+RKU_tank_licenses_idea_desc:0 "Instead of spending already limited resources to develop their own tanks, it will be much more efficient to produce foreign models under license"
+
+RKU_local_development:0 "Domestic Development"
+RKU_local_development_desc:0 "We will rely on the domestic aircraft industry to provide the troops with aircraft"
+
+RKU_german_science_cooperation_idea:0 "German Scientific Cooperation"
+RKU_german_science_cooperation_idea_desc:0 "For the development of our technological capacity, we could attract in our research centre for German experts to conduct joint projects, which significantly accelerated our progress in different fields of science and technology" 
+
+RKU_agroprogram:0 "Agrarian Program"
+RKU_agroprogram_desc:0 "The expansion of food programs will help to ensure the import of food to Germany, and at the same time to meet our own needs"
+
+RKU_volksdeutsche:0 "German Colonists"
+RKU_volksdeutsche_desc:0 "«We, national socialists, deliberately puts an end to all foreign policy before the war. We want to return to the point where our old development ended 600 years ago. We want to suspend the eternal German drive to the South and West of Europe and definitely point the finger towards the territories located in the East. We finally break with the colonial and trade policy of the pre-war period and consciously move to the policy of conquering new lands in Europe. When we talk about the conquest of new lands in Europe, we, of course, can mean primarily only Russia and those marginal States that are subordinate to it.» A. Hitler"
+
+RKU_demographic_program_idea:0 "Demographic Program"
+RKU_demographic_program_idea_desc:0 "The exportation of labor, military and civilian losses have led to a significant decrease in the population of our country. We need to launch state benefits to stimulate the birth rate to compensate for our demographic losses"
+
+RKU_economic_department_idea:0 "Chamber of Economic Policy"
+RKU_economic_department_idea_desc:0 "Further development of the economic sphere of the state requires the creation of a specialized Department that would deal with relevant issues at a more specialized level"
+
+RKU_ukranization_idea:0 "Ukrainization of Public Life"
+RKU_ukranization_idea_desc:0 "Centuries of Russian presence and the Soviet cultural revolution contributed to the significant displacement of the Ukrainian language from public life, leaving it widely used only in the countryside. To enlist the support of Ukrainians need to expand the use of the Ukrainian language in early school, some educational institutions, grassroots administration, press and cultural life"
+
+RKU_black_sea_dominance_designer:0 "Odessa Sea Port"
+RKU_black_sea_dominance_designer_desc:0 ""
+
+RKU_Opposition_forces:0 "Opposition Forces"
+RKU_Opposition_forces_desc:0 "After the formation of the government, opposition forces formed in the socio-political environment, which conduct massive propaganda against our regime" 
+
+RKU_dnepr_dam_is_fine:0 "Exploitation of DneproGES"
+RKU_dnepr_dam_is_fine_desc:0 "The rapid breakthrough of the German armed forces were allowed to take a significant portion of the Soviet troops near Dnepropetrovsk captured. Military success was convertible into economic: as it turned out, the Soviets were ordered to blow up Dneprostroi Dam. But the rapid breakthrough and rout of the Red Army in the region have prevented the disaster. We will be able to use the dam to provide energy for our economic needs"
+ 
+RKU_babi_yar:0 "Executions in Babi Yar"
+RKU_babi_yar_desc:0 ""
+
+RKU_citizenship_for_ostarbeiters:0 "Integration of Ostarbeiters"
+RKU_citizenship_for_ostarbeiters_desc:0 ""
+
+### Advisers 
+
+# Politics
+
+bp_heinrich_himmler:0 "Heinrich Himmler"
+bp_heinrich_himmler_desc:0 "Initially, only ethnic Germans were allowed to serve in the SS. However, to preserve purity German blood, Himmler forced was allow serve in SS volunteers from the Netherlands and Scandinavia — precisely the Dutch and Scandinavians were the most close Germans on anthropological and psychological indicators. As the war progressed, the situation of the German troops deteriorated, and soon Himmler issued an order for the admission of representatives of non-German peoples to the service."
+
+bp_joseph_goebbels:0 "Joseph Goebbels"
+bp_joseph_goebbels_desc:0 "Minister of propaganda and President of the Imperial chamber of culture, Joseph Goebbels concentrated in his hands all the necessary levers of control of the press, radio, cinema and other spheres of German culture. Through a combination of demagogic rhetoric, skillful staging of mass events and the effective use of modern technology - especially radio and film-for propaganda purposes, he managed to indoctrinate the broad strata of the German people with the ideas of national socialism and to discredit the Communists, social Democrats, Jews and ministers of the Church."
+
+bp_german_goering:0 "Hermann Goering"
+bp_german_goering_desc:0 "On October 18, 1936, Hermann Goering was appointed Commissioner for the 4-year plan, and in his hands was concentrated all the leadership of economic measures to prepare Germany for war — to the detriment of the Imperial ministries of economy and Finance. In July 1937, a huge state concern "Hermann Goering Werke" ("Reichswerke AG für Erzbergbau und Eisenhütten Hermann Goering") was created, which took over the numerous factories confiscated from the Jews, and later — factories in the occupied territories."
+
+mykola_stsiborskyi:0 "Nikolay Sciborsky"
+mykola_stsiborskyi_desc:0 "Ukrainian national figure, participated in the creation of the army of the Ukrainian people's Republic (1917-1920). Then one of the leaders of the Organization of Ukrainian Nationalists (since 1929), a publicist and theorist of Ukrainian nationalism, a supporter of nationally oriented totalitarianism ( "integral nationalism"). Supporter of the concept of solidarism (corporatism) in the spirit of Italian fascism. In August 1939, on behalf of Andrei Melnyk, he drafted the Constitution of Ukraine, which provided for a " totalitarian, authoritarian, professionally oriented (that is, corporate) regime."
+
+alfred_rosenberg:0 "Alfred Rosenberg"
+alfred_rosenberg_desc:0 "Statesman and politician of Nazi Germany, one of the most influential members and ideologue of the National Socialist German Workers' Party (NSDAP). Head of the Foreign Policy Department of the NSDAP, the Fuhrer's Commissioner for control of the General spiritual and ideological education of the NSDAP. Head of the Central research Institute for national socialist ideology and education, Reich Ministry for the Occupied Eastern Territories. He is considered the author of such key concepts of national socialism as racial theory, the final solution of the Jewish question, the rejection of the Treaty of Versailles and the struggle against the degeneration of art."
+
+hans_adolf_prutzmann:0 "Hans Prutzmann"
+hans_adolf_prutzmann_desc:0 "Military and police figure of Germany, SS Obergruppenfuhrer and General of police and SS troops. Head of SS and police in Ukraine."
+
+friedrich_cranebitter:0 "Friedrich Kranebitter"
+friedrich_cranebitter_desc:0 "Kranebitter was appointed commander of the security police and SD in Kharkiv. Engaged in the destruction of the Jews using Gaswagen's. He also directed mass executions in the vicinity of the city, during which several thousand prisoners were shot. On Kranebitter's direct order, 60 children from the children's hospital were killed."
+
+andrey_sheptytsky:0 "Andrey Sheptytsky"
+andrey_sheptytsky_desc:0 "The Ukrainian religious leader. Bishop of the Ukrainian Greek Catholic Church; from 17 January 1901 until his death - Metropolitan of Galicia and Archbishop of Lviv and Primate of the Ukrainian Greek Catholic Church. He belonged to the noble Western Ukrainian family Sheptytsky. During the interwar period Sheptytsky was a supporter of the Ukrainian National Democratic Union (UNDO) party. In the first period of the beginning of the Eastern campaign of the Wehrmacht Metropolitan embarked on the path of cooperation with the occupation authorities. On July 1, 1941, the day after the occupation of Lviv by German troops, he addressed the congregation with a welcoming message on this occasion. In July of the same year A. Sheptytsky met with the head of the OUN (Organization of Ukrainian nationalists) S. A. Bandera and as the head of the Church agreed to the struggle of Bandera with the Bolsheviks."
+
+stepan_rudnickiy:0 "Stepan Rudnitsky"
+stepan_rudnickiy_desc:0 "Among the scientists who laid the foundations of Ukrainian racism was the geographer Stepan Rudnitsky. He himself never belonged to the OUN, but some of his ideas set out in the work "To the foundations of Ukrainian nationalism" ("«До основ українського націоналізму», 1923), were adopted by Ukrainian nationalists and later studied at educational courses OUN youth — "Yunatstvo". Ukrainian geographer believed that the nation (independent people) is a subspecies of the species ("breed") " man (homo sapiens)." The essence of a nation depends on the surrounding nature and the "race" of human material. Rudnitsky attributed Ukrainians to the Dinaric race and viewed Ukrainians as a racially homogeneous community."
+
+yaroslav_stetsko:0 "Yaroslav Stetsko"
+yaroslav_stetsko_desc:0 "An active figure of the OUN(b), since 1941 — the first Deputy head of the OUN(b) S. Bandera. In June-July 1941- Chairman of the Ukrainian state Board. Immediately after the German attack on the USSR, Y. Stetsko together with S. Bandera was on the territory of the USSR.  In the rear of the advanced parts of the German troops With. Bandera and Yaroslav Stetsko with a group of supporters on June 29 arrived in Lviv, where Bandera was detained and returned to Krakow, and Stetsko the next day convened the Ukrainian National Assembly, which proclaimed June 30, 1941 Ukrainian State, which will be together with the great Germany to establish a New Order around the world led by "the leader of the Ukrainian people Stepan Bandera". It was proclaimed the formation of the government - the Ukrainian State government, which was headed by Stetsko."
+
+volodymyr_kubiyovych:0 "Volodymyr Kubiyovych"
+volodymyr_kubiyovych_desc:0 "Ukrainian politician, geographer, historian, public and cultural figure. Before world war II, he was one of the leaders of the Ukrainian national movement in the lands that were part of Poland. During the war he was an active supporter of cooperation with the Germans, served as head of the Ukrainian Central Committee in Krakow, was the initiator of the formation of the SS division "Galicia" (14th SS division)."
+
+dmytro_dontsov:0 "Dmitry Dontsov" 
+dmytro_dontsov_desc:0 "Theorist of Ukrainian nationalism, philosopher, Creator of the modern version of the theory of Ukrainian integral nationalism, entrepreneur, literary critic and publicist. Dontsov's ideas and views, based on social Darwinism and nationalism, formed the basis of the OUN's political platform."
+
+kost_levytsky:0 "Kost Levytsky"
+kost_levytsky_desc:0 "Politician of the late 19th century — the first half of the 20th century. Co-founder of UNDP. From November 1918 - Chairman of the state Secretariat of the ZUNR, then - Chairman of the Commission on electoral reform under the government. In July 1941 he was the founder and Chairman Of the national Council in Lviv."
+
+bp_nikita_khrushchev:0 "Nikita Khrushchev"
+bp_nikita_khrushchev_desc:0 ""
+
+# Theorists 
+
+pavel_shandruk_theorist:0 "Pavlo Shandruk"
+pavel_shandruk_theorist_desc:0 "Officer of the Russian Imperial army, Ukrainian and Polish military figure, cornet General of the army of the UNR, Colonel-General of the Ukrainian National army in the Wehrmacht."
+
+vladimir_savchenko_belsky_theorist:0 "Vladimir Savchenko-Belsky"
+vladimir_savchenko_belsky_theorist_desc:0 "Cornet General of the Ukrainian Sovereign Fleet, Ukrainian naval theorist, prominent figure of the Ukrainian naval movement and Ukrainian military emigration. In the periods from 19.05.1920 to 11.07.1920, 25.07.1920 to 17.11.1920 and from 04.07.1921 to the beginning of 1924 he was the chief of the Main Sea Board of the UNR fleet."
+
+viktor_pavlenko_theorist:0 "Victor Pavlenko"
+viktor_pavlenko_theorist_desc:0 "Ukrainian military leader, cornet General of the army of the UNR"
+
+# High command
+
+roman_shukhevych:0 "Roman Shukhevich"
+roman_shukhevych_desc:0 "Ukrainian political and military figure, member of the OUN, then OUN (b), head and commander-in-chief of The Ukrainian insurgent army (OUN-UPA)."
+
+mikhail_omelyanovich_pavlenko:0 "Mikhail Omelyanovich-Pavlenko"
+mikhail_omelyanovich_pavlenko_desc:0 "Officer of the Russian Imperial army; Ukrainian military commander (Lieutenant General of the army of the Ukrainian people's Republic).During the Second world war he became the head (Hetman) of the Ukrainian free Cossacks, was engaged in the formation of Ukrainian military units in the German service."
+
+alexander_zhakhovsky:0 "Alexander Zhakhovsky"
+alexander_zhakhovsky_desc:0 "Lieutenant Colonel of the army of the UNR, military pilot."
+
+arkady_welsh:0 "Arkady Valliyskkiy"
+arkady_welsh_desc:0 "Ukrainian military figure, officer of the army of the UNR. In 1940, the captain of the Abwehr and former cornet of the Galician Army Alexander-Ivan Puluy-Puher released Colonel A. Valliyskkiy from captivity and delivered together with Boris Barvinsky and Jacob Galchevsky (Wojnarowski) in Warsaw. In Warsaw, Colonel A. Valliyskkiy collaborated during the German occupation with the Ataman (Chief) of the army of the UNR Andrei Livitsky and Minister of War Vladimir Salsky."
+
+alexander_kovalenko:0 "Alexander Kovalenko"
+alexander_kovalenko_desc:0 "Ukrainian scientist, public and political figure, writer, engineer officer on the Ironclad 'Potemkin'."
+
+pavel_tereshchenko:0 "Pavel Tereshchenko" 
+pavel_tereshchenko_desc:0 "The UNR Army Colonel, headed the Ukrainian Free Cossacks from 1944 to 1945, the Cossack ataman detachment of the UCMJ, which from December 1944 had formed the Cossack corpus of "Free Cossacks". "Free Cossacks" under his leadership participated in the battles as part of the 599th Russian brigade in Denmark, and March 12, 1945 became part of the 2nd Ukrainian division of the Ukrainian National Army." 
+
+theodore_christensen:0 "Theodor Christensen"
+theodore_christensen_desc:0 "Sturmbannfuhrer SS, head of Sonderkommando 4a, which carried out mass killings in Ukraine."
+
+# Army chief
+
+pavel_shandruk:0 "Pavlo Shandruk"
+pavel_shandruk_desc:0 "Officer of the Russian Imperial army, Ukrainian and Polish military figure, cornet General of the army of the UNR, Colonel-General of the Ukrainian National army in the Wehrmacht."
+
+pavel_dyachenko:0 "Pavel Dyachenko"
+pavel_dyachenko_desc:0 "Ukrainian military and historian, officer of the" wartime " of the Russian Imperial army, then-an officer of the army of the Ukrainian State, Colonel of the army of the UNR; in exile-major of the Polish Army, Colonel UOA and UNA in the Wehrmacht; General-cornet."
+
+roman_sushko:0 "Roman Sushko"
+roman_sushko_desc:0 "Military and political figure of the UNR and OUN, Colonel of Sich Streltsov, in 1939-1941 - commander of the Ukrainian Legion created by the Wehrmacht."
+
+otto_wachter:0 "Otto Wächter"
+otto_wachter_desc:0 "Austrian lawyer, an active member of the Nazi party and the SS, gruppenfuhrer SS and Lieutenant-General of police. Governor of the District of Krakow, in 1942-1944 - head of the District of Galicia. Encouraged the activities of Ukrainian nationalist organizations, in particular, the Pro-German Ukrainian Central Committee under the leadership of Kubiyovich, allowed to form the SS division "Galicia"."
+
+# Air chief
+
+vasily_yanchenko:0 "Vasily Yanchenko"
+vasily_yanchenko_desc:0 "Military pilot of the Air Fleet of the UNR. Commander of the 1st Ukrainian fighter aviation detachment UNR. Also fought in the ranks of the Russian army, the white guards."
+
+viktor_pavlenko:0 "Victor Pavlenko"
+viktor_pavlenko_desc:0 "Ukrainian military leader, cornet General of the army of the UNR."
+
+# Navy chief
+
+svyatoslav_shramchenko:0 "Svyatoslav Shramchenko"
+svyatoslav_shramchenko_desc:0 "Ukrainian military and public figure. In April 1918, Lieutenant S. Shramchenko arrived in Sevastopol. There, as a representative of the Minister of Maritime Affairs, he met with rear admirals Mikhail Ostrogradsky, Nikolai Maximov, and other admirals and officers of the Black Sea fleet, with whom the conditions of subordination of the fleet to the Central Rada were discussed."
+
+vladimir_savchenko_belsky:0 "Vladimir Savchenko-Belsky"
+vladimir_savchenko_belsky_desc:0 "Cornet General of the Ukrainian Sovereign Fleet, Ukrainian naval theorist, prominent figure of the Ukrainian naval movement and Ukrainian military emigration. In the periods from 19.05.1920 to 11.07.1920, 25.07.1920 to 17.11.1920 and from 04.07.1921 to the beginning of 1924 he was the chief of the Main Sea Board of the UNR fleet."  
+
+# Manufacturer
+
+charz:0 "ChARZ"
+charz_desc:0 "The state enterprise "Chuguevsky Avicionniy Remontny Zavod" was founded on September 1, 1938 as aircraft repair workshops of "Chuguevsky Military Aviation school of Pilots".\nThe development of ChARZ will help to establish a tradition of efficiency and quality in the repair and production of aircraft."
+
+motor_sich:0 "Motor Sich"
+motor_sich_desc:0 "The Motor Sich was founded by the Russian Empire in 1907. The Ukrainian enterprise which is engaged in development and production, repair and service of aircraft engines for planes."
+
+tank_repair_plant_7:0 "Kiev Armored Plant"
+tank_repair_plant_7_desc:0 "The state enterprise of the armored industry of Ukraine which carries out diagnostics, repair, maintenance, re-equipment and modernization of armored vehicles." 
+
+xpz_im_comminterna:0 "KhPZ"
+xpz_im_comminterna_desc:0 "The Kharkiv Locomotive Plant - transport machine-building plant, which produces engines, locomotives and tanks. Since 1922, the plant was named as Kharkiv Komintern Locomotive Factory, was renamed as part of the decommunization program."
+
+black_sea_shipping_company:0 "Black Sea Shipping Company"
+black_sea_shipping_company_desc:0 "The oldest state-owned shipping company on the Black sea, which began its history in the times of the Russian Empire when in 1833 the joint-stock black sea steamship company was established to establish permanent relations between Russia and the Ottoman Empire. The base port of the shipping company is the city of Odessa."
+
+niikolaev_shipbuilding_plant:0 "Nikolaevskiy Shipyard"
+niikolaev_shipbuilding_plant_desc:0 "Shipbuilding enterprise located in Nikolaev. Construction of the first shipyard in Nikolaev was begun in 1787, in 1788 the shipyard was put into operation under the name Nikolaev Admiralty."
+
+zvezda:0 "Shkz 'Zvezda'"
+zvezda_desc:0 "Manufacturer of gunpowder and charges for artillery, small arms and hunting weapons — the oldest manufacturer of ammunition in Ukraine."
+
+impuls:0 "Shkz 'Impulse'"
+impuls_desc:0 "The enterprise for production of explosives (blasting caps, electric detonators, detonating cords, cartridges)."
+
+stroydormash:0 "'Stroydormash'"
+stroydormash_desc:0 "Kiev plant 'Stroydormash' was founded in 1932 by the decision of the Kiev district military construction Department and in Soviet times was under the jurisdiction of the Ministry of construction, road and municipal engineering of the USSR."  
+
+rku_arsenal:0 "Arsenal Factory"
+rku_arsenal_desc:0 "Enterprise of special instrumentation. It was the leading enterprise of optical-mechanical and optical-electronic industry of Ukraine. It was included in the list of enterprises of strategic importance."
+
+machine_tool_industry:0 "KSZ"
+machine_tool_industry_desc:0 "Machine-building plant in Kramatorsk, founded in 1937. The plant produces heavy machine tools turning and milling group."
+
+opz:0 "Odessa Oil Refinery"
+opz_desc:0 "The plant was built in 1937 and put into operation in 1938 under the name of Odessa Cracking Plant - as an enterprise of fuel direction with processing of Baku fuel oils on installations of thermal cracking of vacuum distillation."
+ 
+#################################################################################################################################
+# Japan #########################################################################################################################
+#################################################################################################################################
+
+JAP_investments1:0 "Japan-Sino Cooperation"
+JAP_investments1_desc:0 "Cooperation with the new China will be of great benefit to us both - we build them up in our image, and they begin to recover from the war."
+
+JAP_investments2:0 "Japan-Sino Cooperation"
+JAP_investments2_desc:0 "Cooperation with the new China will be of great benefit to us both - we build them up in our image, and they begin to recover from the war."
+
+JAP_investments3:0 "Japan-Sino Cooperation"
+JAP_investments3_desc:0 "Cooperation with the new China will be of great benefit to us both - we build them up in our image, and they begin to recover from the war."
+
+JAP_investments4:0 "Japan-Sino Cooperation"
+JAP_investments4_desc:0 "Cooperation with the new China will be of great benefit to us both - we build them up in our image, and they begin to recover from the war."
+
+JAP_investments5:0 "Japan-Sino Cooperation"
+JAP_investments5_desc:0 "Cooperation with the new China will be of great benefit to us both - we build them up in our image, and they begin to recover from the war."
+
+JAP_investments6:0 "Japan-Sino Cooperation"
+JAP_investments6_desc:0 "Cooperation with the new China will be of great benefit to us both - we build them up in our image, and they begin to recover from the war."
+
+#################################################################################################################################
+# USA ###########################################################################################################################
+#################################################################################################################################
+
+USA_anti_war_indignation:0 "Dissatisfaction of Involvement in War"
+USA_anti_war_indignation_desc:0 "Traditionally, our country tends to isolationism, and at first we were in no hurry to participate in the WWII, limited to the economic support of the UK, China and the USSR. Now that we are forced into war, American society is stirred up by war, it will take time before we overcome this crisis."

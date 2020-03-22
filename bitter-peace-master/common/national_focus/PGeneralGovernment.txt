@@ -1,0 +1,1647 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = { 
+	id = PGG_focus
+
+	country = { 
+		factor = 0 
+		modifier = { 
+			add = 10 
+			tag = PGG 
+		} 
+	} 
+	
+	default = no
+
+	continuous_focus_position = { x = 100 y = 150 }
+
+##### First focus ####################################################################################
+    focus = { 
+		id = PGG_german_administration
+		icon = GFX_focus_generic_self_management
+		x = 6
+		y = 0
+		cost = 5 
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_german_administration"
+		    add_ideas = PGG_hans_frank_administration		
+		}			
+	}
+	
+	### Basic branch 1939-1940 ####################################################################################
+	focus = { 
+		id = PGG_request_for_military_equipment
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = PGG_german_administration }
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = PGG_german_administration
+		
+		ai_will_do = { 
+			factor = 90
+		} 
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_request_for_military_equipment"
+			custom_effect_tooltip = PGG_ordnungspolizei_tt
+			if = {
+				limit = {
+					has_tech = tech_military_police
+				}
+				set_technology = {
+					tech_military_police2 = 1
+				}				
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_tech = tech_military_police
+					}
+				}
+				set_technology = {
+					tech_military_police = 1
+				}				
+			}
+			hidden_effect = {
+				load_oob = "PGG_ordnungspolizei"
+				delete_unit_template_and_units = {
+					division_template = "Dywizja Piechoty"
+				}
+				delete_unit_template_and_units = {
+					division_template = "Infanterie-Division"
+				}
+				10 = { set_garrison_strength = 10 }
+				88 = { set_garrison_strength = 10 }
+				90 = { set_garrison_strength = 10 }
+				92 = { set_garrison_strength = 10 }
+			}
+			GER = { country_event = { id = BP_germany.1 } }
+		} 
+	}
+	
+	focus = { 
+		id = PGG_blue_police
+		icon = GFX_focus_ger_oppose_hitler
+		prerequisite = { focus = PGG_request_for_military_equipment }
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PGG_request_for_military_equipment 
+	
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_blue_police"
+			army_experience = 10
+			add_manpower = 6000
+            add_ideas = PGG_blue_police1
+		}  		
+	}
+	
+	focus = { 
+		id = PGG_gleichschaltung
+	    icon = GFX_germanization
+		prerequisite = { focus = PGG_german_administration }
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PGG_german_administration
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_gleichschaltung"
+		    add_popularity = { ideology = fascism popularity = 0.1 }	
+			if = {
+				limit = {	
+					has_war_support < 0.2
+				}
+				add_war_support = 0.05
+			}			
+		}
+	}
+	
+	focus = { 
+		id = PGG_issuing_bank_in_poland
+		icon = GFX_focus_generic_industry_1
+		prerequisite = { focus = PGG_gleichschaltung }
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PGG_gleichschaltung 
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+	    completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_issuing_bank_in_poland"
+            add_timed_idea = {
+			    idea = PGG_issuing_bank_in_poland
+			    days = 180
+		    }		
+		}	
+	}
+	
+	focus = { 
+		id = PGG_unternehmen_tannenberg
+		icon = GFX_anti_jew_actions
+		prerequisite = { focus = PGG_german_administration }
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = PGG_german_administration
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_unternehmen_tannenberg"
+			add_timed_idea = {
+			    idea = PGG_unternehmen_tannenberg 
+	            days = 90
+			}
+		} 
+	}
+	
+	focus = { 
+		id = PGG_german_propaganda
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = PGG_unternehmen_tannenberg }
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PGG_unternehmen_tannenberg 
+		
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_german_propaganda"
+		    add_ideas = PGG_german_propaganda			
+		}			
+	}
+
+	focus = { 
+		id = PGG_volksliste
+	    icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = PGG_issuing_bank_in_poland }
+		prerequisite = { focus = PGG_german_propaganda }
+		prerequisite = { focus = PGG_blue_police }
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PGG_issuing_bank_in_poland
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_volksliste"
+			10 = { add_compliance = 5 }
+			88 = { add_compliance = 5 }
+			90 = { add_compliance = 5 }
+			92 = { add_compliance = 5 }
+		    add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = PGG_kz
+		icon = GFX_kz
+		prerequisite = { focus = PGG_volksliste }		
+		x = -1
+		y = 1
+		cost = 8
+		relative_position_id = PGG_volksliste
+		
+		ai_will_do = {
+			factor = 15
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_kz"
+			add_political_power = -50
+			#add_popularity = { ideology = fascism popularity = -0.05 }
+			10 = {
+				add_resistance = 5
+			}
+			88 = {
+				add_resistance = 5
+			}
+			90 = {
+				add_resistance = 5
+			}
+			92 = {
+				add_resistance = 5
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory 
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex  
+					level = 1
+					instant_build = yes
+				}
+			}		
+		}
+	}
+	
+	focus = { 
+		id = PGG_jewish_ghetto
+		icon = GFX_ghetto
+		prerequisite = { focus = PGG_volksliste }
+		x = 1
+		y = 1
+		cost = 8
+		relative_position_id = PGG_volksliste
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_jewish_ghetto"
+			add_political_power = -50
+			10 = {
+				add_resistance = 5
+				add_extra_state_shared_building_slots = 2			
+			}
+			88 = {
+				add_resistance = 5
+				add_extra_state_shared_building_slots = 1
+			}
+			90 = {
+				add_resistance = 5
+				add_extra_state_shared_building_slots = 2
+			}
+			92 = {
+				add_resistance = 5
+				add_extra_state_shared_building_slots = 1
+			}		
+		} 		
+	}
+	
+	focus = { 
+		id = PGG_ab_aktion
+	    icon = GFX_purge_poland
+		prerequisite = { focus = PGG_jewish_ghetto }
+		prerequisite = { focus = PGG_kz }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_jewish_ghetto
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_ab_aktion"
+		    add_ideas = PGG_konzentrationslager
+
+		}		
+	}
+	
+	### Small Plan - Total Exploitation branch ####################################################################################
+	focus = { 
+		id = PGG_small_plan
+	    icon = GFX_kz1
+		prerequisite = { focus = PGG_ab_aktion }
+		mutually_exclusive = { focus = PGG_big_plan }
+		x = -3
+		y = 1
+		cost = 10
+		relative_position_id = PGG_ab_aktion
+		
+		ai_will_do = { 
+			factor = 1
+		}	
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_small_plan"
+		    add_political_power = -50
+			swap_ideas = {
+		        remove_idea = PGG_konzentrationslager
+		        add_idea = PGG_arbeitslager
+			}
+		}		
+	}
+	
+	focus = { 
+		id = PGG_privileges_for_volksdeutsche
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = PGG_small_plan }
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = PGG_small_plan
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_privileges_for_volksdeutsche"
+			swap_ideas = {
+		        remove_idea = PGG_hans_frank_administration
+		        add_idea = PGG_privileges_for_volksdeutsche_ahf
+			}
+		} 
+	}
+	
+	focus = { 
+		id = PGG_segregation_policy
+		icon = GFX_germanization
+		prerequisite = { focus = PGG_privileges_for_volksdeutsche }
+		mutually_exclusive = { focus = PGG_old_germanization }
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = PGG_privileges_for_volksdeutsche
+		
+		ai_will_do = { 
+			factor = 1
+		} 		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_segregation_policy"
+		    add_ideas = PGG_segregation_policy
+		} 
+	}
+	
+	focus = { 
+		id = PGG_old_germanization
+		icon = GFX_focus_ger_revive_kaiserreich
+		prerequisite = { focus = PGG_privileges_for_volksdeutsche }
+		mutually_exclusive = { focus = PGG_segregation_policy }
+		x = 0
+		y = 1
+		cost = 10 
+		relative_position_id = PGG_privileges_for_volksdeutsche
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+        completion_reward = {	
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_old_germanization"
+            add_ideas = PGG_old_germanization
+        }					
+	}
+	
+	focus = { 
+		id = PGG_fragmentation_of_the_polish_ethnos
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = PGG_segregation_policy focus = PGG_old_germanization }
+		mutually_exclusive = { focus = PGG_collaboration_propaganda }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PGG_segregation_policy
+		
+		ai_will_do = { 
+			factor = 1
+		} 		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_fragmentation_of_the_polish_ethnos"
+			swap_ideas = {
+		        remove_idea = PGG_german_propaganda
+		        add_idea = PGG_fragmentation_of_the_polish_ethnos
+			}
+		} 
+	}
+	
+	focus = { 
+		id = PGG_collaboration_propaganda
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = PGG_segregation_policy focus = PGG_old_germanization }
+		mutually_exclusive = { focus = PGG_fragmentation_of_the_polish_ethnos }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PGG_old_germanization
+		
+		ai_will_do = { 
+			factor = 1
+		} 		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_collaboration_propaganda"
+			swap_ideas = {
+		        remove_idea = PGG_german_propaganda
+		        add_idea = PGG_collaboration_propaganda
+			}
+		} 
+	}
+	
+	focus = { 
+		id = PGG_further_exploitation
+	    icon = GFX_forced_res
+		prerequisite = { focus = PGG_fragmentation_of_the_polish_ethnos focus = PGG_collaboration_propaganda }
+		mutually_exclusive = { focus = PGG_more_caloeries_for_the_workers }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PGG_fragmentation_of_the_polish_ethnos
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_further_exploitation"
+			swap_ideas = {
+		        remove_idea = PGG_arbeitslager
+		        add_idea = PGG_more_slaves
+			}
+		}	
+	}
+	
+	focus = { 
+		id = PGG_more_caloeries_for_the_workers
+	    icon = GFX_focus_goal_unknown
+		prerequisite = { focus = PGG_fragmentation_of_the_polish_ethnos focus = PGG_collaboration_propaganda }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PGG_collaboration_propaganda
+		mutually_exclusive = { focus = PGG_further_exploitation }
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_more_caloeries_for_the_workers"
+			swap_ideas = {
+		        remove_idea = PGG_arbeitslager
+		        add_idea = PGG_more_food_for_the_loyal_workers
+			}
+		}	
+	}
+	
+	focus = { 
+		id = PGG_german_aristocracy_polish_inferiors
+	    icon = GFX_focus_goal_unknown
+		dynamic = yes
+		prerequisite = { 
+			focus = PGG_more_caloeries_for_the_workers 
+			focus = PGG_further_exploitation 
+		}
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_more_caloeries_for_the_workers
+		
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_german_aristocracy_polish_inferiors"
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = PGG_segregation_policy
+						has_completed_focus = PGG_old_germanization
+					}
+					OR = {
+						AND = {					
+							has_completed_focus = PGG_fragmentation_of_the_polish_ethnos
+							has_completed_focus = PGG_further_exploitation
+						}
+						AND = {
+							has_completed_focus = PGG_segregation_policy
+							OR = {
+								has_completed_focus = PGG_fragmentation_of_the_polish_ethnos
+								has_completed_focus = PGG_further_exploitation
+							}
+							OR = {
+								has_completed_focus = PGG_collaboration_propaganda
+								has_completed_focus = PGG_more_caloeries_for_the_workers
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_idea = PGG_segregation_policy
+					}
+					swap_ideas = {
+						remove_idea = PGG_segregation_policy
+						add_idea = PGG_german_aristocracy_polish_slaves1
+					}
+				}
+				if = {
+					limit = {
+						has_idea = PGG_old_germanization
+					}
+					swap_ideas = {
+						remove_idea = PGG_old_germanization
+						add_idea = PGG_german_aristocracy_polish_slaves2
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = PGG_old_germanization
+						has_completed_focus = PGG_segregation_policy			
+					}
+					OR = {
+						AND = {					
+							has_completed_focus = PGG_collaboration_propaganda
+							has_completed_focus = PGG_more_caloeries_for_the_workers
+						}
+						AND = {
+							has_completed_focus = PGG_old_germanization
+							OR = {
+								has_completed_focus = PGG_collaboration_propaganda
+								has_completed_focus = PGG_more_caloeries_for_the_workers
+							}
+							OR = {
+								has_completed_focus = PGG_fragmentation_of_the_polish_ethnos
+								has_completed_focus = PGG_further_exploitation
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_idea = PGG_segregation_policy
+					}
+					swap_ideas = {
+						remove_idea = PGG_segregation_policy
+						add_idea = PGG_german_aristocracy_polish_inferiors1
+					}
+				}
+				if = {
+					limit = {
+						has_idea = PGG_old_germanization
+					}
+					swap_ideas = {
+						remove_idea = PGG_old_germanization
+						add_idea = PGG_german_aristocracy_polish_inferiors2
+					}
+				}
+			}
+		}	
+	}
+	
+	### Military branch ####################################################################################
+	focus = { 
+		id = PGG_request_for_military_equipment_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = PGG_small_plan 
+			focus = PGG_big_plan
+		}		
+		x = -6
+		y = 1
+		cost = 5
+		relative_position_id = PGG_small_plan
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_request_for_military_equipment_2"
+			unlock_decision_tooltip = RKs_request_small_arms
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons	
+			}
+		} 
+	}
+	
+	focus = { 
+		id = PGG_ask_for_vehicles
+		icon = GFX_ger_armored_car
+		prerequisite = { focus = PGG_request_for_military_equipment_2 }
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = PGG_request_for_military_equipment_2
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_ask_for_vehicles"	
+			unlock_decision_tooltip = RKs_request_vehicles
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 1
+				category = motorized_equipment
+			}
+			unlock_decision_tooltip = RKs_request_armored_vehicles
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 1
+				category = armor	
+			}
+		}		 		
+	}
+	
+	focus = { 
+		id = PGG_gestapo_department
+		icon = GFX_gestapo
+		prerequisite = { focus = PGG_request_for_military_equipment_2 }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PGG_request_for_military_equipment_2
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+	    completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_gestapo_department"
+		    add_ideas = PGG_gestapo
+		}		
+	}
+	
+	focus = { 
+		id = PGG_ask_for_additional_weapon 
+		icon = GFX_ger_flak
+		prerequisite = { focus = PGG_request_for_military_equipment_2 }
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = PGG_request_for_military_equipment_2
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_ask_for_additional_weapon"
+			unlock_decision_tooltip = RKs_request_artillery
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 1
+				category = artillery	
+			}
+			unlock_decision_tooltip = RKs_request_support_equipment
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 1
+				category = support_tech	
+			}
+		}  		
+	}
+
+	focus = { 
+		id = PGG_sonderdienst 
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = PGG_gestapo_department }
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = PGG_gestapo_department
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_sonderdienst"
+			army_experience = 20
+			swap_ideas = {
+		        remove_idea = PGG_blue_police1
+		        add_idea = PGG_blue_police2
+			}
+		}  		
+	}
+
+	focus = { 
+		id = PGG_reserve_battalion_101
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = PGG_gestapo_department }
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = PGG_gestapo_department
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+		completion_reward = { 
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_reserve_battalion_101"
+			if = {
+				limit = {
+					has_tech = tech_military_police3
+				}
+				set_technology = {
+					tech_military_police4 = 1
+				}				
+			}
+			if = {
+				limit = {
+					has_tech = tech_military_police2
+				}
+				set_technology = {
+					tech_military_police3 = 1
+				}				
+			}
+			if = {
+				limit = {
+					has_tech = tech_military_police
+					NOT = { has_tech = tech_military_police2 }
+				}
+				set_technology = {
+					tech_military_police2 = 1
+				}				
+			}			
+		    custom_effect_tooltip = PGG_101_tt
+			hidden_effect = {
+				load_oob = "PGG_101"
+			}					
+		}		 		
+	}
+
+	focus = { 
+		id = PGG_ss_camp_travniki
+		icon = GFX_SS
+		prerequisite = { focus = PGG_gestapo_department }
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = PGG_sonderdienst 
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_ss_camp_travniki"
+			swap_ideas = {
+				remove_idea = PGG_gestapo
+				add_idea = PGG_camp_travniki
+			}
+		}  		
+	}
+	
+	focus = { 
+		id = PGG_collaboration_with_collaborators
+		icon = GFX_pgg_collab
+		prerequisite = { focus = PGG_ss_camp_travniki }
+		x = -1
+		y = 1
+		cost = 10 
+		relative_position_id = PGG_ss_camp_travniki
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_collaboration_with_collaborators"
+		}  		
+	}
+
+	focus = { 
+		id = PGG_fighting_the_underground_state
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = PGG_ss_camp_travniki }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_ss_camp_travniki
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+		available_if_capitulated = yes 
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_fighting_the_underground_state"
+		    add_timed_idea = {
+				idea = PGG_fighting_the_underground_state
+				days = 150
+			} 
+		} 
+	}
+	
+	focus = { 
+		id = PGG_racial_decrees
+		icon = GFX_racial_decrees
+		prerequisite = { focus = PGG_small_plan focus = PGG_big_plan }
+		x = 2
+		y = 1
+		cost = 10 
+		relative_position_id = PGG_small_plan
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+		available_if_capitulated = yes
+
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_racial_decrees"
+            add_ideas = PGG_racial_decrees
+        }					
+	}
+	
+	focus = { 
+		id = PGG_scientific_cooperation
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = PGG_small_plan focus = PGG_big_plan }
+		x = 4
+		y = 1
+		cost = 5
+		relative_position_id = PGG_small_plan
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+		available = {
+			has_idea = PGG_theodor_bauder
+		}
+
+	    completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_scientific_cooperation"
+			custom_effect_tooltip = available_industrial_concern
+			show_ideas_tooltip = PGG_siemens	
+		    add_to_tech_sharing_group = RKs_research_group
+			GER = { add_to_tech_sharing_group = RKs_research_group }
+		}		
+	}
+	
+	### Big Plan - Final Solution
+	focus = { 
+		id = PGG_big_plan
+	    icon = GFX_kz2
+		prerequisite = { focus = PGG_ab_aktion }
+		mutually_exclusive = { focus = PGG_small_plan }
+		x = 3
+		y = 1
+		cost = 10 
+		relative_position_id = PGG_ab_aktion
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_big_plan"
+		    add_political_power = -150
+		}		
+	}
+	
+	focus = { 
+		id = PGG_general_plan_ost
+		icon = GFX_goal_generic_attack_allies
+		prerequisite = { focus = PGG_big_plan }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PGG_big_plan
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+		available_if_capitulated = yes 
+
+	    completion_reward = {	
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_general_plan_ost"
+		}	
+	}	
+	
+	focus = { 
+		id = PGG_volksdeutsche_mittelstelle
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = PGG_general_plan_ost }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PGG_general_plan_ost
+		
+		ai_will_do = { 
+			factor = 1
+		} 		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_segregation_policy"
+		    add_ideas = PGG_segregation_policy	
+		} 
+	}
+
+	focus = { 
+		id = PGG_umvolkung
+		icon = GFX_umvolkung
+		prerequisite = { focus = PGG_general_plan_ost }
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = PGG_general_plan_ost
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+		available_if_capitulated = yes 
+
+	    completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_umvolkung"
+		}	
+	}
+	
+	focus = { 
+		id = PGG_aktion_reinhard
+		icon = GFX_kz
+		prerequisite = { focus = PGG_umvolkung focus = PGG_volksdeutsche_mittelstelle }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_volksdeutsche_mittelstelle
+		
+		ai_will_do = { 
+			factor = 1
+		} 		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_segregation_policy"
+		    add_ideas = PGG_segregation_policy	
+		} 
+	}
+	
+	focus = { 
+		id = PGG_wehrbauers
+		icon = GFX_lebensraum
+		prerequisite = { focus = PGG_aktion_reinhard }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_aktion_reinhard
+		
+		ai_will_do = { 
+			factor = 1
+		} 		
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_segregation_policy"
+		    add_ideas = PGG_volksdeutsche
+		} 
+	}
+	
+	focus = {
+		id = PGG_lebensborn
+		icon = GFX_lebensborn
+		prerequisite = { focus = PGG_aktion_reinhard }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_aktion_reinhard
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_lebensborn"
+			add_ideas = PGG_lebensborn
+		}
+	}
+	
+	focus = { 
+		id = PGG_pabst_plan
+	    icon = GFX_forced_res
+		prerequisite = { focus = PGG_wehrbauers focus = PGG_lebensborn }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_wehrbauers
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_small_plan"
+		    add_political_power = -75
+		}		
+	}
+	
+	focus = { 
+		id = PGG_neu_sudpreussen
+	    icon = GFX_focus_generic_self_management
+		prerequisite = { focus = PGG_reichsgau_goralenland }
+		prerequisite = { 
+			focus = PGG_german_aristocracy_polish_inferiors 
+			focus = PGG_pabst_plan
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PGG_reichsgau_goralenland
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_goralenvolk"
+		    add_political_power = 150
+		}	
+	}
+	
+	focus = { 
+		id = PGG_heim_ins_reich
+	    icon = GFX_focus_generic_self_management
+		mutually_exclusive = { focus = PGG_save_the_administration }
+		prerequisite = { focus = PGG_neu_sudpreussen }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_neu_sudpreussen
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_goralenvolk"
+		    add_political_power = 150
+		}	
+	}
+	
+	focus = { 
+		id = PGG_save_the_administration
+		mutually_exclusive = { focus = PGG_heim_ins_reich }
+	    icon = GFX_focus_generic_self_management
+		prerequisite = { focus = PGG_neu_sudpreussen }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_neu_sudpreussen
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_goralenvolk"
+		    add_political_power = 150
+		}	
+	}
+	
+	focus = { 
+		id = PGG_goralenvolk
+	    icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { 
+			focus = PGG_general_plan_ost 
+			focus = PGG_privileges_for_volksdeutsche 
+		}
+		x = 3
+		y = 2
+		cost = 10
+		relative_position_id = PGG_small_plan
+		
+		ai_will_do = { 
+			factor = 1
+		}
+		
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_goralenvolk"
+		    add_political_power = 150
+		}	
+	}
+	
+	focus = { 
+		id = PGG_goralenvolk_integrate
+	    icon = GFX_focus_generic_treaty
+		prerequisite = { focus = PGG_goralenvolk }
+		mutually_exclusive = { focus = PGG_goralenvolk_autonomy }
+		x = -1
+		y = 1
+		cost = 5 
+		relative_position_id = PGG_goralenvolk
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+	    completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_goralenvolk_integrate"
+		    add_ideas = PGG_goralenvolk_integrate
+		}			
+	}
+	
+	focus = { 
+		id = PGG_goralenvolk_autonomy
+	    icon = GFX_focus_generic_self_management
+		prerequisite = { focus = PGG_goralenvolk }
+		mutually_exclusive = { focus = PGG_goralenvolk_integrate }		
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = PGG_goralenvolk
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+		
+	    completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_goralenvolk_autonomy"
+		    add_ideas = PGG_goralenvolk_autonomy
+		}		
+	}
+	
+	focus = {
+		id = PGG_goralische_waffen_ss_legion
+	    icon = GFX_goal_generic_axis_build_infantry
+		prerequisite = { focus = PGG_goralenvolk_integrate focus = PGG_goralenvolk_autonomy }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_goralenvolk_integrate
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_goralische_waffen_ss_legion"
+		}	
+	}
+	
+	focus = {
+		id = PGG_reichsgau_goralenland
+	    icon = GFX_goal_generic_axis_build_infantry
+		prerequisite = { focus = PGG_goralische_waffen_ss_legion }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PGG_goralische_waffen_ss_legion
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_goralische_waffen_ss_legion"
+		}	
+	}
+
+	focus = {
+		id = PGG_baudienst
+		icon = GFX_goal_generic_construction
+		prerequisite = { 
+			focus = PGG_small_plan
+			focus = PGG_big_plan
+		}	
+		x = 7
+		y = 1
+		cost = 10
+		relative_position_id = PGG_big_plan
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		ai_will_do = {
+			factor = 12
+		}
+
+		available = {  
+			has_full_control_of_state = 10
+            has_full_control_of_state = 90
+            has_full_control_of_state = 92 
+            has_full_control_of_state = 88			
+		}
+	
+		completion_reward = { 	
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_baudienst"
+			custom_effect_tooltip = available_industrial_concern
+			show_ideas_tooltip = PGG_baudienst	
+			custom_effect_tooltip = PGG_autobahn_tt
+			hidden_effect = {
+				10 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}			
+				90 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				92 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				88 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				793 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}	
+		}	
+	}
+
+	focus = { 
+		id = PGG_dig_deep_and_greedily
+		icon = GFX_forced_res
+		prerequisite = { focus = PGG_baudienst }
+		mutually_exclusive = { focus = PGG_balanced_economic_system }
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = PGG_baudienst
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+	    completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_dig_deep_and_greedily"
+		    add_ideas = PGG_dig_deep_and_greedily
+		}		
+	}
+	
+	focus = { 
+		id = PGG_balanced_economic_system
+		icon = GFX_goal_continuous_non_factory_construct
+		prerequisite = { focus = PGG_baudienst }
+		mutually_exclusive = { focus = PGG_dig_deep_and_greedily }
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = PGG_baudienst
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+	    completion_reward = {	
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_balanced_economic_system"
+		    add_ideas = PGG_balanced_economic_system
+		}		
+	}
+
+	focus = { 
+		id = PGG_polish_decrees
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = PGG_dig_deep_and_greedily focus = PGG_balanced_economic_system }
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = PGG_dig_deep_and_greedily
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+	    completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_polish_decrees"
+            add_stability = -0.05		
+		    add_ideas = PGG_polish_decrees
+		}		
+	}
+
+    focus = { 
+		id = PGG_civilarbeiter
+	    icon = GFX_focus_CZE_german_puppet
+		prerequisite = { focus = PGG_polish_decrees }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = PGG_polish_decrees
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+        completion_reward = {	
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_civilarbeiter"
+			add_political_power = 150
+			add_timed_idea = {
+				idea = PGG_civilarbeiter
+				days = 365
+			}
+			GER = {
+				add_opinion_modifier = { target = ROOT modifier = PGG_align_germany }
+			}	
+		}		
+	}
+	
+	focus = {
+		id = PGG_reichswerke_goring
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = PGG_dig_deep_and_greedily focus = PGG_balanced_economic_system }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_dig_deep_and_greedily
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {  
+			has_full_control_of_state = 88
+			has_full_control_of_state = 92
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_reichswerke_goring"
+			88 = {
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+			}
+			92 = {
+				add_resource = {
+					type = tungsten
+					amount = 3
+				}
+			}
+			88 = {
+				add_resource = {
+					type = aluminium
+					amount = 3
+				}
+			}
+			92 = {
+				add_resource = {
+					type = chromium
+					amount = 2
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = PGG_expand_mines
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = PGG_dig_deep_and_greedily }
+		prerequisite = { focus = PGG_reichswerke_goring }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_reichswerke_goring
+		cancel_if_invalid = yes
+		continue_if_invalid = no	
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {  
+			has_full_control_of_state = 88
+			has_full_control_of_state = 92
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_reichswerke_goring"
+			88 = {
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+			}
+			92 = {
+				add_resource = {
+					type = tungsten
+					amount = 3
+				}
+			}
+			88 = {
+				add_resource = {
+					type = aluminium
+					amount = 3
+				}
+			}
+			92 = {
+				add_resource = {
+					type = chromium
+					amount = 2
+				}
+			}
+		}
+	}
+	
+	focus = { 
+		id = PGG_deutsche_ausrustungswerke
+	    icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = PGG_reichswerke_goring }
+		prerequisite = { focus = PGG_polish_decrees }
+		x = 0
+		y = 2
+		cost = 10
+		relative_position_id = PGG_reichswerke_goring
+		
+		ai_will_do = { 
+			factor = 1
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_deutsche_ausrustungswerke"
+			custom_effect_tooltip = available_industrial_concern
+			show_ideas_tooltip = PGG_DAW	
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = { 
+		id = PGG_dye_production_companies_IG_Farben
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = PGG_dig_deep_and_greedily focus = PGG_balanced_economic_system }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_balanced_economic_system
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_dye_production_companies_IG_Farben"
+			custom_effect_tooltip = available_industrial_concern
+			show_ideas_tooltip = PGG_ig_faben
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}			
+		} 		
+	}
+	
+	focus = { 
+		id = PGG_lesser_poland_economic_region
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = PGG_dye_production_companies_IG_Farben }
+		prerequisite = { focus = PGG_polish_decrees }
+		x = 0
+		y = 2
+		cost = 10
+		relative_position_id = PGG_dye_production_companies_IG_Farben
+		
+		ai_will_do = { 
+			factor = 1
+		} 
+		
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_dye_production_companies_IG_Farben"
+			custom_effect_tooltip = available_industrial_concern
+			show_ideas_tooltip = PGG_ig_faben
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}			
+		} 		
+	}
+	
+	focus = {
+		id = PGG_oil_field
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = PGG_dye_production_companies_IG_Farben }
+		prerequisite = { focus = PGG_balanced_economic_system }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = PGG_dye_production_companies_IG_Farben
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {  
+			has_full_control_of_state = 92
+			has_full_control_of_state = 90
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PGG_oil_field"
+			92 = {
+				add_resource = {
+					type = oil
+					amount = 6
+				}
+			}
+			90 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}				
+	}
+}

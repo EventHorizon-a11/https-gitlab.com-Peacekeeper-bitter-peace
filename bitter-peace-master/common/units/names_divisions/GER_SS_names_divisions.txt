@@ -1,0 +1,697 @@
+﻿##############################################################################################################
+# This list contains a total of 184 fictitious SS-Division names for all known branches of the Waffen-SS.
+# Worked, edited and finalized by Robo_Warrior.
+##############################################################################################################
+SS_INF_01 = {
+	name = "SS Infantry Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "infantry" }
+
+	fallback_name = "SS-Gren. Div."
+
+
+	ordered = {
+		1 = { "1. SS-Gren. Div. 'LSSAH'" }
+		2 = { "2. SS-Gren. Div. 'Das Reich'" }
+		3 = { "3. SS-Gren. Div. 'Totenkopf'" }
+		4 = { "4. SS-Polizei-Division" }
+		5 = { "5. SS-Gren. Div. 'Wiking'" }
+		6 = { "6. SS-Division 'Nord'" }
+		7 = { "7. SS-Gren. Div. 'Prinz Eugen'" }
+		8 = { "8. SS-Gren. Div. 'Florian Geyer'" }
+		9 = { "9. SS-Gren. Div. 'Hohenstaufen'" }
+		10 = { "10. SS-Gren. Div. 'Frundsberg'" }		
+		11 = { "11. SS-Freiwilligen-Gren. Div. 'Nordland'" }	
+		12 = { "12. SS-Gren. Div. 'Hitlerjugend'" }		
+		13 = { "13. Kroatische SS-Freiwilligen-Division" }	
+		14 = { "14. Waffen-Gren. Div. der SS (galizische Nr. 1)" }
+		15 = { "15. Waffen-Gren. Div. der SS (lettische Nr. 1)" }
+		16 = { "16. Sturmbrigade Reichsführer-SS" }
+		17 = { "17. SS-Gren. Div. 'Götz von Berlichingen'" }
+		18 = { "18. SS-Freiwilligen-Gren. Div. 'Horst Wessel'" }	
+		19 = { "19. Waffen-Gren. Div. der SS (lettische Nr. 2)" }
+		20 = { "20. Waffen-Gren. Div. der SS (estnische Nr. 1)" }
+		21 = { "21. Waffen-Gren. Div. der SS 'Skanderbeg' (Albanische Nr. 1)" }
+		22 = { "22. SS-Freiwilligen-Gren. Div. 'Maria Theresia'" }
+		23 = { "23. SS-Freiwilligen Legion Niederlande" }
+		24 = { "24. Waffen-Gren. Div. der SS 'Karstjäger'" }
+		25 = { "25. Waffen-Gren. Div. der SS 'Hunyadi' (ungarische Nr. 1)" }
+		26 = { "26. Waffen-Gren. Div. der SS 'Hungaria' (ungarische Nr. 2)" }
+		27 = { "27. SS-Freiwilligen-Gren. Div. 'Langemarck' (flämische Nr. 1)" }
+		28 = { "28. SS-Freiwilligen-Gren. Div. 'Wallonien'" }
+		29 = { "29. Waffen-Gren. Div. der SS 'Italia' (italienische Nr. 1)" }
+		30 = { "30. Waffen-Gren. Div. der SS (weißruthenische Nr. 1)" }
+		31 = { "31. SS-Freiwilligen-Gren. Div. 'Batschka'" }
+		32 = { "32. SS-Freiwilligen-Gren. Div. '30. Januar'" }
+		33 = { "33. Waffen-Gren. Div. der SS 'Karl der Große' (französische Nr. 1)" }
+		34 = { "34. SS-Freiwilligen-Gren. Div. 'Landstorm Nederland' (niederländische Nr. 2)" }
+		35 = { "35. SS-Polizei-Gren. Div." }
+		36 = { "36. Waffen-Gren. Div. der SS 'Dirlewanger'" }
+		37 = { "37. SS-Freiwilligen-Gren. Div. 'Lützow'" }
+		38 = { "38. SS-Gren. Div. 'Nibelungen'" }
+	}
+}
+SS_ALT_INF_01 = {
+	name = "Late/Alternate SS Infantry Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "infantry"  }
+
+	fallback_name = "SS-Gren. Div."
+
+	ordered = {
+		1 = { "%d. SS-Gren. Div. 'Reichsmarschall'" }
+		2 = { "%d. SS-Gren. Div. 'Wallenstein'" }
+		3 = { "%d. SS-Gren. Div. 'Waräger'" }
+		4 = { "%d. SS-Gren. Div. 'Schwedt/Oder'" }
+		5 = { "%d. SS-Gren. Div. 'Dietrich von Bern " }
+		6 = { "%d. SS-Gren. Div. 'Finlandia'" }
+		7 = { "%d. SS-Gren. Div. 'Reichadler'" }
+		8 = { "%d. SS-Gren. Div. 'Mühlheim'" }
+		9 = { "%d. SS-Gren. Div. 'Donau'" }
+		10 = { "%d. SS-Gren. Div. 'Marktredwitz'" }
+		11 = { "%d. SS-Gren. Div. 'Marienberg'" }
+		12 = { "%d. SS-Gren. Div. 'Siegel'" }
+		13 = { "%d. SS-Gren. Div. 'Reichenbach'" }
+		14 = { "%d. SS-Gren. Div. 'Wachenheim'" }
+		15 = { "%d. SS-Gren. Div. 'Alten'" }
+		16 = { "%d. SS-Gren. Div. 'Reiter'" }
+		17 = { "%d. SS-Gren. Div. 'Rostock'" }
+		18 = { "%d. SS-Gren. Div. 'Hellinger'" }
+		19 = { "%d. SS-Gren. Div. 'Wald'" }
+		20 = { "%d. SS-Gren. Div. 'Spitze'" }
+		21 = { "%d. SS-Gren. Div. 'Rhür'" }
+		22 = { "%d. SS-Gren. Div. 'Schütz'" }
+		23 = { "%d. SS-Gren. Div. 'Hund'" }
+		24 = { "%d. SS-Gren. Div. 'Ullrich'" }
+		25 = { "%d. SS-Gren. Div. 'Fahne'" }
+		26 = { "%d. SS-Gren. Div. 'Weber'" }
+		27 = { "%d. SS-Gren. Div. 'Donner'" }
+		28 = { "%d. SS-Gren. Div. 'Heisenberg'" }
+		29 = { "%d. SS-Gren. Div. 'Altmark'" }		
+		30 = { "%d. SS-Gren. Div. 'Zoller'" }
+		31 = { "%d. SS-Gren. Div. 'König'" }
+		32 = { "%d. SS-Gren. Div. 'Wache'" }
+		33 = { "%d. SS-Gren. Div. 'Ernst Friedrich'" }
+		34 = { "%d. SS-Gren. Div. 'Liechtenstein'" }
+	}
+}
+SS_MNT_01 = {
+	name = "SS Mountain Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "mountaineers"  }
+
+	fallback_name = "SS-Gebirgs Div."
+
+	ordered = {
+		1 = { "1. SS-Gebirgs Div. 'LSSAH'" }
+		2 = { "2. SS-Gebirgs Div. 'Das Reich'" }
+		3 = { "3. SS-Gebirgs Div. 'Totenkopf'" }
+		4 = { "4. 4. SS-Gebirgs Div. 'Polizei'" }
+		5 = { "5. SS-Gebirgs Div. 'Wiking'" }
+		6 = { "6. SS-Gebirgs Div. 'Nord'" }
+		7 = { "7. SS-Gebirgs Div. 'Prinz Eugen'" }
+		8 = { "8. SS-Gebirgs Div. 'Florian Geyer'" }
+		9 = { "9. SS-Gebirgs Div. 'Hohenstaufen'" }
+		10 = { "10. SS-Gebirgs Div. 'Frundsberg'" }	
+		11 = { "11. SS-Freiwilligen-Gebirgs Div. 'Nordland'" }
+		12 = { "12. SS-Gebirgs Div. 'Hitlerjugend'" }
+		13 = { "13. SS-Gebirgs Div. 'Handschar'" }	
+		14 = { "14. Waffen-Gebirgs Div. der SS 'Galizien'" }	
+		15 = { "15. Waffen-Gebirgs Div. der SS 'Lettische Nr. 1'" }
+		16 = { "16. SS-Gebirgs Div. 'Reichsführer-SS'" }	
+		17 = { "17. SS-Gebirgs Div. 'Götz von Berlichingen'" }
+		18 = { "18. SS-Freiwilligen-Gebirgs Div. 'Horst Wessel'" }
+		19 = { "19. Waffen-Gebirgs Div. der SS (lettische Nr. 1)" }
+		20 = { "20. Waffen-Gebirgs Div. der SS (Estniche Nr. 1)" }
+		21 = { "21. Waffen-Gebirgs Div. der SS 'Skanderbeg' (Albanische Nr. 1)" }
+		22 = { "22. SS-Freiwilligen-Gebirgs Div. 'Maria Theresia'" }
+		23 = { "23. SS-Freiwilligen-Gebirgs Div. 'Nederland'" }
+		24 = { "24. Waffen-Gebirgs-Division der SS 'Karstjäger'" }
+		25 = { "25. Waffen-Gebirgs Div. der SS 'Hunyadi' (Ungarische Nr. 1)" }
+		26 = { "26. Waffen-Gebirgs Div. der SS 'Hungaria' (ungarische Nr. 2)" }
+		27 = { "27. SS-Freiwilligen-Gebirgs Div. 'Langemarck' (flämische Nr. 1)" }
+		28 = { "28. SS-Freiwilligen-Gebirgs Div. 'Wallonien'" }
+		29 = { "29. Waffen-Gebirgs Div. der SS 'Italia' (italienische Nr. 1)" }
+		30 = { "30. Waffen-Gebirgs Div. der SS (weißruthenische Nr. 1)" }
+		31 = { "31. SS-Freiwilligen-Gebirgs Div. 'Batschka'" }
+		32 = { "32. SS-Freiwilligen-Gebirgs Div. '30. Januar'" }
+		33 = { "33. Waffen-Gebirgs Div. der SS 'Karl der Große' (französische Nr. 1)" }
+		34 = { "34. SS-Freiwilligen-Gebirgs Div. 'Landstorm Nederland' (niederländische Nr. 2) " }
+		35 = { "35. SS-Polizei-Gebirgs Div." }
+		36 = { "36. Waffen-Gebirgs Div. der SS 'Dirlewanger'" }
+		37 = { "37. SS-Freiwilligen-Gebirgs Div. 'Lützow'" }
+		38 = { "38. SS-Gebirgs Div. 'Nibelungen'" }
+	}
+}
+SS_ALT_MNT_01 = {
+	name = "Late/Alternate SS Mountain Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "mountaineers"  }
+
+	fallback_name = "SS-Gebirgs Div."
+
+	ordered = {
+		1 = { "%d. SS-Gebirgs Div. 'Andreas Hofer'" }
+		2 = { "%d. SS-Gebirgs Div. 'Amberg'" }
+		3 = { "%d. SS-Gebirgs Div. 'Hochland'" }
+		4 = { "%d. SS-Gebirgs Div. 'Elfas'" }
+		6 = { "%d. SS-Gebirgs Div. 'Finne'" }
+		7 = { "%d. SS-Gebirgs Div. 'Weiße Wache'" }
+		8 = { "%d. SS-Gebirgs Div. 'Rotenberg'" }
+		9 = { "%d. SS-Gebirgs Div. 'Bergsteiger'" }
+		10 = { "%d. SS-Gebirgs Div. 'Teutoburg'" }
+		11 = { "%d. SS-Gebirgs Div. 'Vorberge'" }
+		12 = { "%d. SS-Gebirgs Div. 'Zittau'" }
+		13 = { "%d. SS-Gebirgs Div. 'Aremberg'" }
+		14 = { "%d. SS-Gebirgs Div. 'Dollberg'" }
+		15 = { "%d. SS-Gebirgs Div. 'Scharfenberg " }
+		16 = { "%d. SS-Gebirgs Div. 'Schönberg'" }
+		17 = { "%d. SS-Gebirgs Div. 'Krottenkopf'" }
+		18 = { "%d. SS-Gebirgs Div. 'Hülsenberg'" }
+		19 = { "%d. SS-Gebirgs Div. 'Das Glatteis'" }
+		20 = { "%d. SS-Gebirgs Div. 'Wolfsköpfe'" }
+		21 = { "%d. SS-Gebirgs Div. 'Eisenberg'" }
+		22 = { "%d. SS-Gebirgs Div. 'Oberste'" }
+		23 = { "%d. SS-Gebirgs Div. 'Adlershorst'" }
+		24 = { "%d. SS-Gebirgs Div. 'Stocksberg'" }
+		25 = { "%d. SS-Gebirgs Div. 'Wüstenberg'" }
+		26 = { "%d. SS-Gebirgs Div. 'Spitze'" }
+		27 = { "%d. SS-Gebirgs Div. 'Hohwacht'" }
+		28 = { "%d. SS-Gebirgs Div. 'Staufenberg'" }
+		29 = { "%d. SS-Gebirgs Div. 'Langenberg'" }
+		30 = { "%d. SS-Gebirgs Div. 'Alpenjäger'" }	
+		31 = { "%d. SS-Gebirgs Div. 'Hunsrück'" }	
+	}
+}
+SS_CAV_01 = {
+	name = "SS Cavalry Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "cavalry"  }
+
+	fallback_name = "SS-Kav. Div."
+
+	ordered = {
+		1 = { "1. SS-Kav. Div. 'LSSAH'" }
+		2 = { "2. SS-Kav. Div. 'Das Reich'" }
+		3 = { "3. SS-Kav. Div. 'Totenkopf'" }
+		4 = { "4. SS-Kav. Div. 'Polizei'" }
+		5 = { "5. SS-Kav. Div. 'Wiking'" }	
+		6 = { "6. SS-Kav. Div. 'Nord'" }
+		7 = { "7. SS-Kav. Div. 'Prinz Eugen'" }
+		8 = { "8. SS-Kav. Div. 'Florian Geyer'" }
+		9 = { "9. SS-Kav. Div. 'Hohenstaufen'" }
+		10 = { "10. SS-Kav. Div. 'Frundsberg'" }
+		11 = { "11. SS-Freiwilligen-Kav. Div. 'Nordland'" }
+		12 = { "12. SS-Kav. Div. 'Hitlerjugend'" }
+		13 = { "13. SS-Kav. Div. 'Handschar'" }
+		14 = { "14. Waffen-Kav. Div. der SS 'Galizien'" }
+		15 = { "15. Waffen-Kav. Div. der SS (Lettische Nr. 1)" }
+		16 = { "16. SS-Kav. Div. 'Reichsführer-SS'" }
+		17 = { "17. SS-Kav. Div. 'Götz von Berlichingen'" }
+		18 = { "18. SS-Freiwilligen-Kav. Div. 'Horst Wessel'" }
+		19 = { "19. Waffen-Kav. Div. der SS (Lettische Nr. 2)" }
+		20 = { "20. Waffen-Kav. Div. der SS (Estniche Nr. 1)" }
+		21 = { "21. Waffen-Kav. Div. der SS 'Skanderbeg' (Albanische Nr. 1)" }
+		22 = { "22. SS-Freiwilligen-Kav. Div. 'Maria Theresia'" }
+		23 = { "23. SS-Freiwilligen-Kav. Div. 'Nederland'" }
+		24 = { "24. Waffen-Kav. Div. der SS 'Karstjäger'" }
+		25 = { "25. Waffen-Kav. Div. der SS 'Hunyadi' (Ungarische Nr. 1)" }
+		26 = { "26. Waffen-Kav. Div. der SS 'Hungaria' (ungarische Nr. 2)" }
+		27 = { "27. SS-Freiwilligen-Kav. Div. 'Langemarck' (flämische Nr. 1)" }
+		28 = { "28. SS-Freiwilligen-Kav. Div. 'Wallonien'" }
+		29 = { "29. Waffen-Kav. Div. der SS 'Italia' (italienische Nr. 1)" }
+		30 = { "30. Waffen-Kav. Div. der SS (weißruthenische Nr. 1)" }
+		31 = { "31. SS-Freiwilligen-Kav. Div. 'Batschka'" }
+		32 = { "32. SS-Freiwilligen-Kav. Div. '30. Januar'" }
+		33 = { "33. Waffen-Kav. Div. der SS 'Karl der Große' (französische Nr. 1)" }
+		34 = { "34. SS-Freiwilligen-Kav. Div. 'Landstorm Nederland' (niederländische Nr. 2) " }
+		35 = { "35. SS-Polizei-Kav. Div." }
+		36 = { "36. Waffen-Kav. Div. der SS 'Dirlewanger'" }
+		37 = { "37. SS-Freiwilligen-Kav. Div. 'Lützow'" }
+		38 = { "38. SS-Kav. Div. 'Nibelungen'" }
+	}
+}
+SS_ALT_CAV_01 = {
+	name = "Late/Alternate SS Cavalry Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "cavalry"  }
+
+	fallback_name = "SS-Kav. Div."
+
+	ordered = {
+		1 = { "%d. SS-Kav. Div. 'Alpenland'" }
+		2 = { "%d. SS-Kav. Div. 'Donau'" }
+		3 = { "%d. SS-Kav. Div. 'Elbe'" }
+		4 = { "%d. SS-Kav. Div. 'Fulda'" }
+		5 = { "%d. SS-Kav. Div. 'Werra'" }
+		6 = { "%d. SS-Kav. Div. 'Lothringen'" }
+		7 = { "%d. SS-Kav. Div. 'Nordsee'" }
+		8 = { "%d. SS-Kav. Div. 'Ostland" }
+		9 = { "%d. SS-Kav. Div. 'Rhein'" }
+		10 = { "%d. SS-Kav. Div. 'Westmark'" }
+		11 = { "%d. SS-Kav. Div. 'Spree'" }
+		12 = { "%d. SS-Kav. Div. 'Warth'" }
+		13 = { "%d. SS-Kav. Div. 'Weichsel'" }
+		14 = { "%d. SS-Kav. Div. 'Ritter'" }
+		15 = { "%d. SS-Kav. Div. 'Neustadt'" }
+		16 = { "%d. SS-Kav. Div. 'Düsseldorf'" }
+		17 = { "%d. SS-Kav. Div. 'Danzig'" }
+		18 = { "%d. SS-Kav. Div. 'Posen'" }
+		19 = { "%d. SS-Kav. Div. 'Breslau'" }
+		20 = { "%d. SS-Kav. Div. 'Brieg'" }
+		21 = { "%d. SS-Kav. Div. 'Wiesbaden'" }
+		22 = { "%d. SS-Kav. Div. 'Koblenz'" }
+		23 = { "%d. SS-Kav. Div. 'Stettin'" }
+		24 = { "%d. SS-Kav. Div. 'Königsberg'" }
+		25 = { "%d. SS-Kav. Div. 'Hamburg'" }
+		26 = { "%d. SS-Kav. Div. 'Braunschweig'" }
+		27 = { "%d. SS-Kav. Div. 'Nürnberg'" }
+		28 = { "%d. SS-Kav. Div. 'Lanze'" }
+	}	
+}
+SS_MOT_01 = {
+	name = "SS Motorized Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+	
+	division_types = { "motorized"  }
+
+	fallback_name = "SS-Gren. Div. (mot.)"
+
+	ordered = {
+		1 = { "1. SS-Gren. Div. (mot.) 'LSSAH'" }
+		2 = { "2. SS-Gren. Div. (mot.) 'Reich'" }
+		3 = { "3. SS-Gren. Div. (mot.) 'Totenkopf'" }
+		4 = { "4. SS-Gren. Div. (mot.) 'Polizei'" }
+		5 = { "5. SS-Gren. Div. (mot.) 'Wiking'" }
+		6 = { "6. SS-Gren. Div. (mot.) 'Nord'" }
+		7 = { "7. SS-Gren. Div. (mot.) 'Prinz Eugen'" }
+		8 = { "8. SS-Gren. Div. (mot.) 'Florian Geyer'" }
+		9 = { "9. SS-Gren. Div. (mot.) 'Hohenstaufen'" }
+		10 = { "10. SS-Gren. Div. (mot.) 'Frundsberg'" }
+		11 = { "11. SS-Freiwilligen-Gren. Div. (mot.) 'Nordland'" }
+		12 = { "12. SS-Gren. Div. (mot.) 'Hitlerjugend'" }
+		13 = { "13. SS-Gren. Div. (mot.) 'Handschar'" }
+		14 = { "14. Waffen-Gren. Div. der SS (mot.) 'Galizien'" }
+		15 = { "15. Waffen-Gren. Div. der SS (mot.) (lettische Nr. 1)" }
+		16 = { "16. SS-Gren. Div. (mot.) 'Reichsführer-SS'" }
+		17 = { "17. SS-Gren. Div. (mot.) 'Götz von Berlichingen'" }
+		18 = { "18. SS-Freiwilligen-Gren. Div. (mot.) 'Horst Wessel'" }
+		19 = { "19. Waffen-Gren. Div. der SS (mot.) (Lettische Nr. 2)" }
+		20 = { "20. Waffen-Gren. Div. der SS (mot.) (Estniche Nr. 1)" }
+		21 = { "21. Waffen-Gren. Div. der SS (mot.) 'Skanderbeg' (Albanische Nr. 1)" }
+		22 = { "22. SS-Freiwilligen-Gren. Div. (mot.) 'Maria Theresia'" }
+		23 = { "23. SS-Freiwilligen-Gren. Div. (mot.) 'Nederland'" }
+		24 = { "24. Waffen-Gren. Div. der SS (mot.) 'Karstjäger'" }
+		25 = { "25. Waffen-Gren. Div. der der SS (mot.) 'Hunyadi' (ungarische Nr. 1)" }
+		26 = { "26. Waffen-Gren. Div. der der SS (mot.) 'Hungaria' (ungarische Nr. 2)" }
+		27 = { "27. SS-Freiwilligen-Gren. Div. (mot.) 'Langemarck' (flämische Nr. 1)" }
+		28 = { "28. SS-Freiwilligen-Gren. Div. (mot.) 'Wallonien'" }
+		29 = { "29. Waffen-Gren. Div. der SS (mot.) 'Italia' (italienische Nr. 1)" }
+		30 = { "30. Waffen-Gren. Div. der SS (mot.) (weißruthenische Nr. 1)" }
+		31 = { "31. SS-Freiwilligen-Gren. Div. (mot.) 'Batschka'" }
+		32 = { "32. SS-Freiwilligen-Gren. Div. (mot.) '30. Januar'" }
+		33 = { "33. Waffen-Gren. Div. der SS (mot.) 'Karl der Große' (französische Nr. 1)" }
+		34 = { "34. SS-Freiwilligen-Gren. Div. (mot.) 'Landstorm Nederland' (niederländische Nr. 2) " }
+		35 = { "35. SS-Polizei-Gren. Div (mot.)" }
+		36 = { "36. Waffen-Gren. Div. der SS (mot.) 'Dirlewanger'" }
+		37 = { "37. SS-Freiwilligen-Gren. Div. (mot.) 'Lützow'" }
+		38 = { "38. SS-Gren. Div. (mot.) 'Nibelungen'" }
+	}
+}
+SS_ALT_MOT_01 = {
+	name = "Late/Alternate SS Motorized Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+	
+	division_types = { "motorized"  }
+
+	fallback_name = "SS Gren. Div. (mot.)"
+
+	ordered = {
+		1 = { "%d. SS-Gren. Div. (mot.) 'Abenberg'" }
+		2 = { "%d. SS-Gren. Div. (mot.) 'Kindelbrück'" }
+		3 = { "%d. SS-Gren. Div. (mot.) 'Müritz'" }
+		4 = { "%d. SS-Gren. Div. (mot.) 'Walküre'" }
+		5 = { "%d. SS-Gren. Div. (mot.) 'Plochingen'" }
+		6 = { "%d. SS-Gren. Div. (mot.) 'Rhön'" }
+		7 = { "%d. SS-Gren. Div. (mot.) 'Ostheim'" }
+		8 = { "%d. SS-Gren. Div. (mot.) 'Obertshausen'" }
+		9 = { "%d. SS-Gren. Div. (mot.) 'Neusäß'" }
+		10 = { "%d. SS-Gren. Div. (mot.) 'München'" }
+		11 = { "%d. SS-Gren. Div. (mot.) 'Posen'" }
+		12 = { "%d. SS-Gren. Div. (mot.) 'Bromberg'" }
+		13 = { "%d. SS-Gren. Div. (mot.) 'Zinten'" }
+		14 = { "%d. SS-Gren. Div. (mot.) 'Sensburg'" }
+		15 = { "%d. SS-Gren. Div. (mot.) 'Landmauer'" }
+		16 = { "%d. SS-Gren. Div. (mot.) 'Burg'" }
+		17 = { "%d. SS-Gren. Div. (mot.) 'Künzelsau'" }
+		18 = { "%d. SS-Gren. Div. (mot.) 'Schild'" }
+		19 = { "%d. SS-Gren. Div. (mot.) 'Landsberg'" }
+		20 = { "%d. SS-Gren. Div. (mot.) 'Friesland'" }
+		21 = { "%d. SS-Gren. Div. (mot.) 'Raute'" }
+		22 = { "%d. SS-Gren. Div. (mot.) 'Heilbad'" }
+		23 = { "%d. SS-Gren. Div. (mot.) 'Greiz'" }
+		24 = { "%d. SS-Gren. Div. (mot.) 'Göttingen'" }
+		25 = { "%d. SS-Gren. Div. (mot.) 'Freising'" }
+		26 = { "%d. SS-Gren. Div. (mot.) 'Fulda'" }
+		27 = { "%d. SS-Gren. Div. (mot.) 'Wetzlar'" }
+		28 = { "%d. SS-Gren. Div. (mot.) 'Kiel'" }	
+		29 = { "%d. SS-Gren. Div. (mot.) 'Nidersachsen'" }
+	}
+}
+### Put all divisions titled "Panzergrenadier" in this list to avoid confusion, even though some (GD, Brandenburg, etc) were full Panzer Divisions in organization.	
+SS_MEC_01 = {
+	name = "SS Panzergrenadier Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "mechanized"  }
+
+	fallback_name = "SS-Pz.Gren. Div."
+
+	ordered = {
+		1 = { "1. SS-Pz.Gren. Div. 'LSSAH'" }
+		2 = { "2. SS-Pz.Gren. Div. 'Das Reich'" }
+		3 = { "3. SS-Pz.Gren. Div. 'Totenkopf'" }
+		4 = { "4. SS-Polizei-SS-Pz.Gren. Div." }
+		5 = { "5. SS-Pz.Gren. Div. 'Wiking'" }
+		6 = { "6. SS-Pz.Gren. Div. 'Nord'" }
+		7 = { "7. SS-Pz.Gren. Div. 'Prinz Eugen'" }
+		8 = { "8. SS-Pz.Gren. Div. 'Florian Geyer'" }
+		9 = { "9. SS-Pz.Gren. Div. 'Hohenstaufen'" }
+		10 = { "10. SS-Pz.Gren. Div. 'Frundsberg'" }
+		11 = { "11. SS-Freiwilligen-Pz.Gren. Div. 'Nordland'" }
+		12 = { "12. SS-Pz.Gren. Div. 'Hitlerjugend'" }
+		13 = { "13. SS-Pz.Gren. Div. 'Handschar'" }
+		14 = { "14. Waffen-Pz.Gren. Div. der SS 'Galizien'" }
+		15 = { "15. Waffen-Pz.Gren. Div. der SS (Lettische Nr. 1)" }
+		16 = { "16. SS-Pz.Gren. Div. 'Reichsführer SS'" }
+		17 = { "17. SS-Pz.Gren. Div. 'Götz von Berlichingen'" }
+		18 = { "18. SS-Freiwilligen-Pz.Gren. Div. 'Horst Wessel'" }
+		19 = { "19. Waffen-Pz.Gren. Div. der SS (Lettische Nr. 2)" }
+		20 = { "20. Waffen-Pz.Gren. Div. der SS (Estniche Nr. 1)" }
+		21 = { "21. Waffen-Pz.Gren. Div. der SS 'Skanderbeg' (Albanische Nr. 1)" }
+		22 = { "22. SS-Freiwilligen-Pz.Gren. Div. 'Maria Theresia'" }
+		23 = { "23. SS-Freiwilligen-Pz.Gren. Div. 'Nederland' (niederlandische Nr. 1)" }
+		24 = { "24. Waffen-Pz.Gren. Div. der SS 'Karstjäger'" }
+		25 = { "25. Waffen-Pz.Gren. Div. der SS 'Hunyadi' (ungarische Nr. 1)" }
+		26 = { "26. Waffen-Pz.Gren. Div. der der SS 'Hungaria' (ungarische Nr. 2)" }
+		27 = { "27. SS-Freiwilligen-Pz.Gren. Div. 'Langemarck' (flämische Nr. 1)" }
+		28 = { "28. SS-Freiwilligen-Pz.Gren. Div. 'Wallonien'" }
+		29 = { "29. Waffen-Pz.Gren. Div. der SS 'Italia' (italienische Nr. 1)" }
+		30 = { "30. Waffen-Pz.Gren. Div. der SS (weißruthenische Nr. 1)" }
+		31 = { "31. SS-Freiwilligen-Pz.Gren. Div. 'Batschka'" }
+		32 = { "32. SS-Freiwilligen-Pz.Gren. Div. '30. Januar'" }
+		33 = { "33. Waffen-Pz.Gren. Div. der SS 'Karl der Große' (französische Nr. 1)" }
+		34 = { "34. SS-Freiwilligen-Pz.Gren. Div. 'Landstorm Nederland' (niederländische Nr. 2) " }
+		35 = { "35. SS-Polizei-Pz.Gren. Div." }
+		36 = { "36. Waffen-Pz.Gren. Div. der SS 'Dirlewanger'" }
+		37 = { "37. SS-Freiwilligen-Pz.Gren. Div. 'Lützow'" }
+		38 = { "38. SS-Pz.Gren. 'Nibelungen'" }
+	}
+}
+SS_ALT_MEC_01 = {
+	name = "Late/Alternate SS Panzergrenadier Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "mechanized"  }
+
+	fallback_name = "SS-Pz.Gren. Div."
+
+	ordered = {
+		1 = { "%d. SS-Pz.Gren. Div. 'Germania'" }
+		2 = { "%d. SS-Pz.Gren. Div. 'Deutschland'" }
+		3 = { "%d. SS-Pz.Gren. Div. 'Feldherrnhalle'" }
+		4 = { "%d. SS-Pz.Gren. Div. 'Siegfried'" }
+		5 = { "%d. SS-Pz.Gren. Div. 'Haeseler'" }
+		6 = { "%d. SS-Pz.Gren. Div. 'Kleist'" }
+		7 = { "%d. SS-Pz.Gren. Div. 'Aachen'" }
+		8 = { "%d. SS-Pz.Gren. Div. 'Wrangel'" }
+		9 = { "%d. SS-Pz.Gren. Div. 'Heyde'" }
+		10 = { "%d. SS-Pz.Gren. Div. 'Krockow'" }
+		11 = { "%d. SS-Pz.Gren. Div. 'Hansa'" }
+		12 = { "%d. SS-Pz.Gren. Div. 'Freya'" }
+		13 = { "%d. SS-Pz.Gren. Div. 'Westphalia'" }
+		14 = { "%d. SS-Pz.Gren. Div. 'Rhineland'" }
+		15 = { "%d. SS-Pz.Gren. Div. 'Friedberg'" }
+		16 = { "%d. SS-Pz.Gren. Div. 'Bayern'" }
+		17 = { "%d. SS-Pz.Gren. Div. 'Schweinfurt'" }
+		18 = { "%d. SS-Pz.Gren. Div. 'Rottweil'" }
+		19 = { "%d. SS-Pz.Gren. Div. 'Flachland'" }
+		20 = { "%d. SS-Pz.Gren. Div. 'Saale-Orla'" }
+		21 = { "%d. SS-Pz.Gren. Div. 'Neuss'" }
+		22 = { "%d. SS-Pz.Gren. Div. 'Sturm'" }
+		23 = { "%d. SS-Pz.Gren. Div. 'Eisenberg'" }
+		24 = { "%d. SS-Pz.Gren. Div. 'Belzig'" }
+		25 = { "%d. SS-Pz.Gren. Div. 'Potsdam'" }
+		26 = { "%d. SS-Pz.Gren. Div. 'Wildeshausen'" }
+		27 = { "%d. SS-Pz.Gren. Div. 'Aalen'" }
+		28 = { "%d. SS-Pz.Gren. Div. 'Rüstung'" }
+		29 = { "%d. SS-Pz.Gren. Div. 'Offenbach'" }
+		30 = { "%d. SS-Pz.Gren. Div. 'Mittelmark'" }
+		31 = { "%d. SS-Pz.Gren. Div. 'Plön'" }
+	}
+}
+SS_ARM_01 = {
+	name = "SS Panzer Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "SS-Panzer Div."
+
+	ordered = {
+		1 = { "1. SS-Panzer Div. 'LSSAH'" }
+		2 = { "2. SS-Panzer Div. 'Das Reich'" }
+		3 = { "3. SS-Panzer Div. 'Totenkopf'" }		
+		4 = { "4. SS-Panzer Div. 'Polizei'" }
+		5 = { "5. SS-Panzer Div. 'Wiking'" }	
+		6 = { "6. SS-Panzer Div. 'Nord'" }
+		7 = { "7. SS-Panzer Div. 'Prinz Eugen'" }
+		8 = { "8. SS-Panzer Div. 'Florian Geyer'" }
+		9 = { "9. SS-Panzer Div. 'Hohenstaufen'" }
+		10 = { "10. SS-Panzer Div. 'Frundsberg'" }
+		11 = { "11. SS-Panzer Div. 'Nordland'" }
+		12 = { "12. SS-Panzer Div. 'Hitlerjugend'" }
+		13 = { "13. SS-Panzer Div. 'Handschar'" }
+		14 = { "14. Waffen-Panzer Div. der SS 'Galizien'" }
+		15 = { "15. Waffen-Panzer Div. der SS (Lettische Nr. 1)" }
+		16 = { "16. SS-Panzer Div. 'Reichsführer-SS'" }
+		17 = { "17. SS-Panzer Div. 'Götz von Berlichingen'" }
+		18 = { "18. SS-Freiwilligen-Panzer Div. 'Horst Wessel'" }
+		19 = { "19. Waffen-Panzer Div. der SS (Lettische Nr. 2)" }
+		20 = { "20. Waffen-Panzer Div. der SS (Estniche Nr. 1)" }
+		21 = { "21. Waffen-Panzer Div. der SS 'Skanderbeg' (Albanische Nr. 1)" }
+		22 = { "22. SS-Freiwilligen-Panzer Div. 'Maria Theresia'" }
+		23 = { "23. SS-Freiwilligen-Panzer Div. 'Nederland'" }
+		24 = { "24. Waffen-Panzer Div. der SS 'Karstjäger'" }
+		25 = { "25. Waffen-Panzer Div. der SS 'Hunyadi' (ungarische Nr. 1)" }
+		26 = { "26. Waffen-Panzer Div. der der SS 'Hungaria' (ungarische Nr. 2)" }
+		27 = { "27. SS-Freiwilligen-Panzer Div. 'Langemarck' (flämische Nr. 1)" }
+		28 = { "28. SS-Freiwilligen-Panzer Div. 'Wallonien'" }
+		29 = { "29. Waffen-Panzer Div. der SS 'Italia' (italienische Nr. 1)" }
+		30 = { "30. Waffen-Panzer Div. der SS (weißruthenische Nr. 1)" }
+		31 = { "31. SS-Freiwilligen-Panzer Div. 'Batschka'" }
+		32 = { "32. SS-Freiwilligen-Panzer Div. '30. Januar'" }
+		33 = { "33. Waffen-Panzer Div. der SS 'Karl der Große' (französische Nr. 1)" }
+		34 = { "34. SS-Freiwilligen-Panzer Div. 'Landstorm Nederland' (niederländische Nr. 2) " }
+		35 = { "35. SS-Polizei-Panzer Div" }
+		36 = { "36. Waffen-Panzer Div. der SS 'Dirlewanger'" }
+		37 = { "37. SS-Freiwilligen-Panzer Div. 'Lützow'" }
+		38 = { "38. SS-Panzer Div. 'Nibelungen'" }
+	}
+}
+SS_ALT_ARM_01 = {
+	name = "Late/Alternate SS Panzer Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "SS-Panzer Div."
+
+	ordered = {
+		1 = { "%d. SS-Panzer Div. 'Der Führer'" }
+		2 = { "%d. SS-Panzer Div. 'Der Teutone'" }
+		3 = { "%d. SS-Panzer Div. 'Otto der Große'" }
+		4 = { "%d. SS-Panzer Div. 'Westland'" }
+		5 = { "%d. SS-Panzer Div. 'Nordmark'" }
+		6 = { "%d. SS-Panzer Div. 'Küstenland'" }
+		7 = { "%d. SS-Panzer Div. 'Burgund'" }
+		8 = { "%d. SS-Panzer Div. 'Gotenland'" }
+		9 = { "%d. SS-Panzer Div. 'Metz'" }
+		10 = { "%d. SS-Panzer Div. 'Livonia'" }
+		11 = { "%d. SS-Panzer Div. 'Dünaland'" }
+		12 = { "%d. SS-Panzer Div. 'Ostland'" }
+		13 = { "%d. SS-Panzer Div. 'Schwert'" }
+		14 = { "%d. SS-Panzer Div. 'Reichenau'" }
+		15 = { "%d. SS-Panzer Div. 'Wartheland'" }
+		16 = { "%d. SS-Panzer Div. 'Blitz'" }
+		17 = { "%d. SS-Panzer Div. 'Niederdonau'" }
+		18 = { "%d. SS-Panzer Div. 'Thüringen'" }
+		19 = { "%d. SS-Panzer Div. 'Schwanden'" }
+		20 = { "%d. SS-Panzer Div. 'Westpreußen'" }
+		21 = { "%d. SS-Panzer Div. 'Der Gote'" }
+		22 = { "%d. SS-Panzer Div. 'Brandenburg'" }
+		23 = { "%d. SS-Panzer Div. 'Alder'" }
+		24 = { "%d. SS-Panzer Div. 'Oberbayern'" }
+		25 = { "%d. SS-Panzer Div. 'Wittelsbach'" }
+		26 = { "%d. SS-Panzer Div. 'Welf'" }
+		27 = { "%d. SS-Panzer Div. 'Rheinfeld'" }
+	}
+}
+SS_GAR_01 = {
+	name = "SS Garrison Divisions"
+
+	for_countries = { GER }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "infantry"  }
+
+	fallback_name = "SS-Standarte"
+
+	ordered =
+	{
+		1 = { "%d. SS-Standarte" }
+		2 = { "%d. SS-Standarte" }
+		3 = { "%d. SS-Standarte" }
+		4 = { "%d. SS-Standarte" }
+		5 = { "%d. SS-Standarte" }
+		6 = { "%d. SS-Standarte" }
+		7 = { "%d. SS-Standarte" }
+		8 = { "%d. SS-Standarte" }
+		9 = { "%d. SS-Standarte" }
+		10 = { "%d. SS-Standarte" }
+		11 = { "%d. SS-Standarte" }
+		12 = { "%d. SS-Standarte" }
+		13 = { "%d. SS-Standarte" }
+		14 = { "%d. SS-Standarte" }
+		15 = { "%d. SS-Standarte" }
+		16 = { "%d. SS-Standarte" }
+		17 = { "%d. SS-Standarte" }
+		18 = { "%d. SS-Standarte" }
+		19 = { "%d. SS-Standarte" }
+		20 = { "%d. SS-Standarte" }
+		21 = { "%d. SS-Standarte" }
+		22 = { "%d. SS-Standarte" }
+		23 = { "%d. SS-Standarte" }
+		24 = { "%d. SS-Standarte" }
+		25 = { "%d. SS-Standarte" }
+		26 = { "%d. SS-Standarte" }
+		27 = { "%d. SS-Standarte" }
+		28 = { "%d. SS-Standarte" }
+		29 = { "%d. SS-Standarte" }
+		30 = { "%d. SS-Standarte" }
+		31 = { "%d. SS-Standarte" }
+		32 = { "%d. SS-Standarte" }
+		33 = { "%d. SS-Standarte" }
+		34 = { "%d. SS-Standarte" }
+		35 = { "%d. SS-Standarte" }
+		36 = { "%d. SS-Standarte" }
+		37 = { "%d. SS-Standarte" }
+		38 = { "%d. SS-Standarte" }
+		39 = { "%d. SS-Standarte" }
+		40 = { "%d. SS-Standarte" }
+		41 = { "%d. SS-Standarte" }
+		42 = { "%d. SS-Standarte" }
+		43 = { "%d. SS-Standarte" }
+		44 = { "%d. SS-Standarte" }
+		45 = { "%d. SS-Standarte" }
+		46 = { "%d. SS-Standarte" }
+		47 = { "%d. SS-Standarte" }
+		48 = { "%d. SS-Standarte" }
+		49 = { "%d. SS-Standarte" }
+		50 = { "%d. SS-Standarte" }
+		51 = { "%d. SS-Standarte" }
+		52 = { "%d. SS-Standarte" }
+		53 = { "%d. SS-Standarte" }
+		54 = { "%d. SS-Standarte" }
+		55 = { "%d. SS-Standarte" }
+		56 = { "%d. SS-Standarte" }
+		57 = { "%d. SS-Standarte" }
+		58 = { "%d. SS-Standarte" }
+		59 = { "%d. SS-Standarte" }
+		60 = { "%d. SS-Standarte" }
+		61 = { "%d. SS-Standarte" }
+		62 = { "%d. SS-Standarte" }
+		63 = { "%d. SS-Standarte" }
+		64 = { "%d. SS-Standarte" }
+		65 = { "%d. SS-Standarte" }
+		66 = { "%d. SS-Standarte" }
+		67 = { "%d. SS-Standarte" }
+		68 = { "%d. SS-Standarte" }
+		69 = { "%d. SS-Standarte" }
+		70 = { "%d. SS-Standarte" }
+		71 = { "%d. SS-Standarte" }
+		72 = { "%d. SS-Standarte" }
+		73 = { "%d. SS-Standarte" }
+		74 = { "%d. SS-Standarte" }
+		75 = { "%d. SS-Standarte" }
+		76 = { "%d. SS-Standarte" }
+		77 = { "%d. SS-Standarte" }
+		78 = { "%d. SS-Standarte" }
+		79 = { "%d. SS-Standarte" }
+		80 = { "%d. SS-Standarte" }
+		81 = { "%d. SS-Standarte" }
+		82 = { "%d. SS-Standarte" }
+		83 = { "%d. SS-Standarte" }
+		84 = { "%d. SS-Standarte" }
+		85 = { "%d. SS-Standarte" }
+		86 = { "%d. SS-Standarte" }
+		87 = { "%d. SS-Standarte" }
+		88 = { "%d. SS-Standarte" }
+		89 = { "%d. SS-Standarte" }
+		90 = { "%d. SS-Standarte" }
+		91 = { "%d. SS-Standarte" }
+		92 = { "%d. SS-Standarte" }
+		93 = { "%d. SS-Standarte" }
+		94 = { "%d. SS-Standarte" }
+		95 = { "%d. SS-Standarte" }
+		96 = { "%d. SS-Standarte" }
+		97 = { "%d. SS-Standarte" }
+		98 = { "%d. SS-Standarte" }
+		99 = { "%d. SS-Standarte" }
+		100 = { "%d. SS-Standarte" }
+	}
+	
+}

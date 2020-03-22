@@ -1,0 +1,59 @@
+##############
+### GERMAN ###
+##############
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SS_infantry_weapon_rifle_G98_mesh"
+		file = "gfx/models/small_arms/SS_weapon_GER_rifle_G98.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SS_infantry_weapon_rifle_98k_mesh"
+		file = "gfx/models/small_arms/SS_weapon_GER_rifle_98k.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SS_infantry_weapon_mg_MP35_mesh"
+		file = "gfx/models/small_arms/SS_weapon_GER_mg_MP35.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SS_infantry_weapon_rifle_MP44_mesh"
+		file = "gfx/models/small_arms/SS_weapon_GER_rifle_MP44.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SS_infantry_weapon_lmg_MG13_mesh"
+		file = "gfx/models/small_arms/SS_weapon_GER_lmg_MG13.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SS_infantry_weapon_lmg_MG34_mesh"
+		file = "gfx/models/small_arms/SS_weapon_GER_lmg_MG34.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SS_infantry_weapon_lmg_MG42_mesh"
+		file = "gfx/models/small_arms/SS_weapon_GER_lmg_MG42.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SS_infantry_weapon_rifle_FG42_mesh"
+		file = "gfx/models/small_arms/SS_weapon_GER_rifle_FG42.mesh"
+	}
+}

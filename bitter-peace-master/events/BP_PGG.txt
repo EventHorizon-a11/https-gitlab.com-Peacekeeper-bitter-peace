@@ -1,0 +1,152 @@
+﻿###############################################################################################################################################################################
+#### Bitter Peace General Goverment Events ####################################################################################################################################
+###############################################################################################################################################################################
+
+add_namespace = BP_PGG
+
+# Create Generalgouvernement - Geramny
+country_event = {
+	id = BP_PGG.1
+	title = BP_PGG.1.t
+	desc = BP_PGG.1.d
+	picture = GFX_report_event_bp_pgg
+
+	is_triggered_only = yes
+	
+	option = { #Create
+		name = BP_PGG.1.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			GER = {
+				if  = { 
+					limit = { 
+						POL = { 
+							exists = yes
+							is_in_faction = yes 
+							has_capitulated = yes
+						}	
+					}	
+					set_state_controller = 797
+					set_state_controller = 86
+					set_state_controller = 87
+					set_state_controller = 98
+					set_state_controller = 72
+					set_state_controller = 762
+					set_state_controller = 798
+					set_state_controller = 800
+				}
+				if  = { 
+					limit = { 
+						POL = { 
+							is_in_faction = no
+							OR = { 
+								has_capitulated = yes
+								exists = no
+							}
+						}	
+					}
+					transfer_state = 797
+					transfer_state = 86
+					transfer_state = 87
+					transfer_state = 98
+					transfer_state = 72
+					transfer_state = 762
+					transfer_state = 798
+					transfer_state = 800
+				}				
+				set_country_flag = PGG_1			
+				country_event = { days = 3 id = BP_PGG.2 }
+			}
+		}
+		PGG = {		
+			transfer_state = 88
+			transfer_state = 10
+			transfer_state = 90					
+			transfer_state = 92				
+			set_capital = 88			
+			GER = {
+				set_autonomy = { target = PGG autonomy_state = autonomy_military_administration_ger }
+			}		
+			hidden_effect = {
+				Clean_up_PGG = yes
+				set_popularities = {
+					democratic = 31
+					fascism = 17
+					communism = 14
+					neutrality = 38
+				}
+				create_country_leader = {
+					name = "Hans Frank"
+					desc = ""
+					picture = "gfx/leaders/GER/Portrait_Germany_Hans_Frank.dds"
+					expire = "1965.1.1"
+					ideology = nazism
+					traits = {
+					}
+				}								
+			}
+		}		
+	}
+	option = { #No need
+		name = BP_PGG.1.b
+		ai_chance = { factor = 0 }		 
+	}
+}
+# Germanization of Western Poland
+country_event = {
+	id = BP_PGG.2
+	title = BP_PGG.2.t
+	desc = BP_PGG.2.d
+	picture = GFX_report_event_germanization_of_west_poland
+
+	is_triggered_only = yes
+	
+	option = {
+		name = BP_PGG.2.a
+		797 = {	
+			add_compliance = 10
+			set_state_name = "bp_state_797" 
+		}
+		86 = { 
+			add_compliance = 10 
+			set_state_name = "bp_state_86" 
+		} 
+		98 = { 
+			add_compliance = 10
+			set_state_name = "bp_state_98" 
+		}
+		87 = { 
+			add_compliance = 10
+			set_state_name = "bp_state_87" 
+		} 
+		800 = { 
+			add_compliance = 10
+			set_state_name = "bp_state_800" 
+		}
+		72 = { 
+			add_compliance = 10
+			set_state_name = "bp_state_72"
+		 } 
+		798 = { 
+			add_compliance = 10
+			set_state_name = "bp_state_798" 
+		}
+		762 = { 
+			add_compliance = 10
+			set_state_name = "bp_state_762" 
+		} 	
+		hidden_effect = {
+			set_province_name = { id = 3295 name = "bp_vp_3295"}	
+			set_province_name = { id = 6558 name = "bp_vp_6558"}
+			set_province_name = { id = 279 name = "bp_vp_279"}		
+			set_province_name = { id = 3230 name = "bp_vp_3230"}		
+			set_province_name = { id = 9508 name = "bp_vp_9508"}		
+			set_province_name = { id = 3254 name = "bp_vp_3254" } 		
+			set_province_name = { id = 6464 name = "bp_vp_6464"}
+		}
+		unlock_decision_tooltip = GER_germanization_west_poland_step1_start
+		unlock_decision_tooltip = GER_germanization_zaolzie_katowice_step1_start
+		unlock_decision_tooltip = GER_german_renaming_west_poland	
+		set_country_flag = PGG_2
+	}	
+}

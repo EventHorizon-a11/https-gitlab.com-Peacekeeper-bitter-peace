@@ -1,0 +1,181 @@
+﻿l_english:
+
+### Cost ###
+PP_10:0 "£pol_power §Y10§!"
+PP_10_blocked:0 "£pol_power §R10§!"
+SS_CP_5_PP_10:0 "£pol_power §Y10§! £command_power §Y5§!"
+SS_CP_5_PP_10_blocked:0 "£pol_power §R10§! £command_power §R5§!"
+SS_CP_10_PP_20:0 "£pol_power §Y20§! £command_power §Y10§!"
+SS_CP_10_PP_20_blocked:0 "£pol_power §R20§! £command_power §R10§!"
+SS_CP_5_PP_50:0 "£pol_power §Y50§! £command_power §Y5§!"
+SS_CP_5_PP_50_blocked:0 "£pol_power §R50§! £command_power §R5§!"
+
+GER_allgemeine_ss_tech:0 "Allgemeine SS"
+GER_allgemeine_ss_tech_desc:0 "Enables the recruitment of elite anti-partisan Allgemeine-SS units with strong defensive capabilities but low attack power"
+
+GER_ss_units_tech:0 "Waffen-SS Troops"
+GER_ss_units_tech_desc:0 "Enables the recruitment of elite Waffen-SS troops."
+
+SS_armour_template_request_tt1:0 "\n   If you have only §HLight Tank I/II/III§! and §HMotorized Equipment§! technologies - you will have an §Gbasic§! template of §HSS-Panzer Division.§!\n" #DON'T TOUCH THIS FREE SPACE
+SS_armour_template_request_tt2:0 "If you also have §HMedium Tank I/II/III§!, §HMedium TD I/II/III§! and §HMedium SPG I/II/III§! technologies - you will have an §Gimproved§! template of §HSS-Panzer Div. (n.A.).§!\n"
+SS_armour_template_request_tt3:0 "If in addition to all of the above, you have §HHeavy Tank II/III§!, §HMechanized Equipment§! and §HTowed Rocket Artillery§! technologies - you will have an §Gadvanced§! template of §HSS-Panzer Div. (vollgep.).§!"
+
+SS_mechanised_template_request_tt1:0 "\n   If you have only §HMechanized Equipment§! technology - you will have an §Gbasic§! template of §HSS-Pz.Gren. Div.§!\n"
+SS_mechanised_template_request_tt2:0 "If you also have §HMedium Tank I/II/III§!, §HMedium TD I/II/III§! and §HMedium SPG I/II/III§! technologies - you will have an §Gimproved§! template of §HSS-Pz.Gren. Div. (n.A.).§!\n"
+
+SS_german_recruitment:0 "Schutzstaffeln"
+SS_german_recruitment_desc:0 "SS (German «Die SS», from «Die Schutzstaffel») - «guard detachment» - is a subsidiary paramilitary organization of the NSDAP (until 1934 subordinated to another subsidiary party organization-SA), which considered itself an «organization of political soldiers of the party». Initially, Its function was to protect the leaders of the party (it was organized on the basis of the «Headquarters guard 'Adolf Hitler'», intended to protect the Fuhrer);\nSubsequently, this organization was given a variety of functions (from ensuring the functioning of the system of institutions of extrajudicial detention and re - education-concentration camps to the training of young people in special party schools, ie. national political academies).\n \nIts mission since the appointment of its leader Heinrich Himmler, the SS saw in the reconstruction of the «new Aryan humanity», even before the Nazis came to power, acquired in the eyes of both its own members and outsiders the image of the «elite» part of the Nazi party. Part of the members (at the end of the war, the most significant) served in structures modeled on army formations, units and divisions (up to the army headquarters), since 1939. operatively subordinated to the German armed forces and de facto included in their composition as the fourth component of the Wehrmacht (in 1940, they were called «Waffen SS», SS troops)."
+
+group_schutzstaffel_infantry_title:0 "SS Infantry Battalions"
+group_schutzstaffel_mobile_title:0 "SS Mobile Battalions"
+group_schutzstaffel_armor_title:0 "SS Panzer Battalions"
+#####################################################################
+SS_police:0 "SS-Allgemeine"
+SS_police_desc:0 "Anti-partisan unit. Troops specialising in defense against partisan activity. Strong against partisans, but weak attackers."
+SS_marine:0 "SS-Marine"
+SS_mountaineers:0 "SS-Gebirgsjäger"
+SS_paratrooper:0 "SS-Fallschirmjäger"
+#####################################################################
+SS_infantry:0 "SS-Infanterie"
+SS_anti_air_brigade:0 "SS-Flugabwehr"
+SS_artillery_brigade:0 "SS-Artillerie"
+SS_rocket_artillery_brigade:0 "SS-Raketenartillerie"
+SS_anti_tank_brigade:0 "SS-Panzerabwehr"
+#####################################################################
+SS_cavalry:0 "SS-Kavallerie"
+SS_motorized:0 "SS-Motorisiert"
+SS_mot_anti_air_brigade:0 "SS-Motorisierte Flugabwehr"
+SS_mot_artillery_brigade:0 "SS-Motorisierte Artillerie"
+SS_mot_rocket_artillery_brigade:0 "SS-LKW-gezogene Raketenartillerie"
+SS_mot_anti_tank_brigade:0 "SS-Motorisierte Panzerabwehr"
+SS_mechanized:0 "SS-Pz.Grenadier"
+#####################################################################
+SS_light_armor:0 "SS-Leichter Panzer"
+SS_light_sp_anti_air_brigade:0 "SS-Leichter Flugabwehrpanzer"
+SS_light_sp_artillery_brigade:0 "SS-Leichte Selbstfahrlafette"
+SS_light_tank_destroyer_brigade:0 "SS-Leichter Jagdpanzer"
+#####################################################################
+SS_medium_armor:0 "SS-Mittlerer Panzer"
+SS_medium_sp_anti_air_brigade:0 "SS-Mittlere Flugabwehrpanzer"
+SS_medium_sp_artillery_brigade:0 "SS-Mittlere Selbstfahrlafette"
+SS_medium_tank_destroyer_brigade:0 "SS-Mittlerer Jagdpanzer"
+#####################################################################
+SS_heavy_armor:0 "SS-Schwerer Panzer"
+SS_heavy_sp_anti_air_brigade:0 "SS-Schwerer Flugabwehrpanzer"
+SS_heavy_sp_artillery_brigade:0 "SS-Schwere Selbstfahrlafette"
+SS_heavy_tank_destroyer_brigade:0 "SS-Schwerer Jagdpanzer"
+#####################################################################
+SS_super_heavy_armor:0 "SS-Schwergewichts Panzer"
+SS_super_heavy_sp_anti_air_brigade:0 "SS-Überschwerer Flugabwehrpanzer"
+SS_super_heavy_sp_artillery_brigade:0 "SS-Überschwere Selbstfahrlafette" 
+SS_super_heavy_tank_destroyer_brigade:0 "SS-Überschwerer Jagdpanzer"
+#####################################################################
+SS_modern_armor:0 "SS-Moderner Panzer"
+SS_modern_sp_anti_air_brigade:0 "SS-Moderner Flugabwehrpanzer"
+SS_modern_sp_artillery_brigade:0 "SS-Moderne Selbstfahrlafette"  
+SS_modern_tank_destroyer_brigade:0 "SS-Moderner Jagdpanzer"
+#####################################################################
+
+allgemeine_ss:0 "Allgemeine SS"
+allgemeine_ss_desc:0 "General SS (German Allgemeine SS) - was one of the two main parts of the overall SS (alongside the waffen combat troops). The tasks of the «General SS» were mainly the implementation of administrative and economic functions within Reich territory. Members of the «General SS» were not considered to be in military service of the Nazi party, and therefore did not receive allowances or uniforms. Thus they performed their party duties in parallel with other work. At the same time, many state institutions of Nazi Germany were staffed mostly by cadres from the «General SS», which ensured strict party control over the state apparatus."
+allgemeine_ss_tt:0 "§GEnables the recruitment of elite anti-partisan Allgemeine-SS units with strong defensive capabilities but low attack power.§!\n§Y3 brigades of Allgemeine SS§! will appear in §YBrandenburg§!"
+
+ss_junkerschule:0 "SS-Junkerschulen"
+ss_junkerschule_desc:0 "SS Junker schools (German SS-Junkerschulen) - were introduced in 1937 as officer cadet schools and training centers of the SS during the Second World War. These had the task of training officer candidates for the Waffen-SS. SS-Junkerschulen eventually existed at four locations in Bad Tolz, Brunswick, Klagenfurt and Prague-Dewitz."
+
+lssah_creation:0 "1. SS-Division 'LSSAH'"
+BP_ss_recruitment_event.1.t:0 "1. SS-Division 'Leibstandarte SS Adolf Hitler'"
+BP_ss_recruitment_event.1.d:0 "The Leibstandart SS Adolf Hitler (LSSAH) was founded in September 1933 as Adolf Hitler's personal guard.\nThe first serious use of the unit took place in late June - early July 1934, when it during the Night of the Long Knives, following the orders of the Fuhrer, without trial destroyed most of the leadership of the SA.\nBy the beginning of 1935, the "Leibstandart SS" was deployed as a real military unit, and its size corresponded to the staff of the army motorized regiment. Candidates passed severe selection, in part were enlisted only the military personnel meeting the following requirements: age 23-30 years, growth not less than 184 cm, excellent physical preparation, the German citizenship, the Aryan origin, absence of records in police, besides, it was required to confirm fidelity to the National-Socialist state and not to be a member of any denomination.\nIn 1939, LSSAH became a separate division of Waffen-SS along with SS-TV and SS-VT."
+BP_ss_recruitment_event.1.a:0 "Meine Ehre heißt Treue"
+GER_regiment_lssah_tt:0 "The §Ymotorized 1. SS-Regiment 'LSSAH'§! will appear with equipment and full manpower strength."
+
+das_reich_creation:0 "2. SS-Division 'Reich'"
+BP_ss_recruitment_event.2.t:0 "2. SS-Division 'Reich'"
+BP_ss_recruitment_event.2.d:0 "The SS-Division 'Reich', until 25 February 1941 was called the SS Reinforcement Division (German. SS-Verfügungsdivision) - was formed on 10 October 1938 by the merger of SS-Verfügungstruppen with part of the SS 'Totenkopf' connections. The division ranks 1st among SS units in the number of recipients of the Knight's cross of the Iron cross.\n \nIn the Polish campaign in September 1939, individual regiments of the division were included in the larger formations of the Wehrmacht. Paul Hausser with the regiment 'Deutschland', propaganda and intelligence unit was attached to the headquarters of the Panzer division 'Kempf'. The regiment 'Deutschland' became a reserve unit of the 14th army under the command of General Liszt. The shock assault battalion served with the life standard of von Reichenau's 10th army. The regiment 'Der Fuhrer' during the whole campaign was kept in a special reserve and did not take an active part in the battles.\nIn 1940, the division participated in the campaigns in the West (Netherlands, France). On 25 February 1941, it was reorganized into the SS division 'Reich'."
+BP_ss_recruitment_event.2.a:0 "Meine Ehre heißt Treue"
+GER_regiment_das_reich_tt:0 "The §Ymotorized 2. SS-Verfügungsdivision'§! will appear with equipment and full manpower strength."
+
+regiments_updates:0 "Modernization of SS-Regiment's"
+regiments_updates_desc:0 "In the Polish campaign in September 1939, individual SS regiments were incorporated into larger Wehrmacht formations. Already in the first battles, they not only failed to perform their combat tasks, but also suffered significant losses.\nAt the end of 1939, SS guards units were relocated to the range in the Koblenz area, where re-formation and training was carried out.\nOn may 10, 1940, they participated in the Fall Gelb on the Western front."
+GER_regiments_upgrade_tt:0 "The §Y§Ymotorized 1. SS-Division 'LSSAH'§! and §Y2. SS Division 'Das Reich'§! will appear without equipment but full manpower strength."
+
+totenkopf_creation:0 "3. SS-Division 'Totenkopf'"
+BP_ss_recruitment_event.3.t:0 "3. SS-Division 'Totenkopf'"
+BP_ss_recruitment_event.3.d:0 "The SS Division Totenkopf, also known as 3.SS-Panzergrenadier-Division Totenkopf and 3.SS-Panzer-Division Totenkopf, was one of the 38 divisions fielded by the Waffen-SS during World War II.\nPrior to achieving division status, the formation was known as Kampfgruppe Eicke. The Division is infamous due to its insignia and the fact that most of the initial enlisted soldiers were SS-Totenkopfverbände (SS concentration camp guards)."
+BP_ss_recruitment_event.3.a:0 "Meine Ehre heißt Treue"
+GER_division_totenkopf_tt:0 "The §Ymotorized 3. SS-Division 'Totenkopf'§! will appear without equipment but full manpower strength."
+
+polizei_creation:0 "4. SS-Division 'Polizei'"
+BP_ss_recruitment_event.4.t:0 "4. SS-Division 'Polizei'"
+BP_ss_recruitment_event.4.d:0 "The Polizei Division was formed on October 1939 at the training camp in Vandern from the personnel of the Ordnungspolizei (order police) fit for combat duty. At the first stage, the division received artillery and sapper units from the Wehrmacht, in early 1940 they were returned to the army and instead formed new ones.\nAt the time of its formation, the Роlizei Division was not an SS unit, although it was subordinate to the Reichsführer SS (as chief of the German police). In this regard, the division did not receive the designation 'SS', and its soldiers were largely not members of the SS, had the ranks of the police, not the SS, and wore the insignia of the order police, not the SS runes on their buttonholes.\nIn 10 February 1942, an order of the Reichsführer SS was issued, according to which the Роlizei Division was included in the Waffen-SS and became known as the SS-Polizei-Division. Such a long non-inclusion of the division in the SS suggests that Himmler and the SS leadership were fully aware that this would be a violation of the previously proposed principle of forming SS paramilitaries."
+BP_ss_recruitment_event.4.a:0 "Meine Ehre heißt Treue"
+GER_division_polizei_tt:0 "The §Ygrenadier 4. SS-Division 'Polizei'§! will appear without equipment but full manpower strength."
+
+wiking_creation:0 "5. SS Division 'Wiking'"
+BP_ss_recruitment_event.5.t:0 "5. SS Division 'Wiking'"
+BP_ss_recruitment_event.5.d:0 "The SS division 'Wiking' was formed on 20 November 1940 as a division of the Waffen SS. It consisted of foreign volunteers from Denmark, Norway, Sweden, Finland, Estonia, the Netherlands and Belgium under the command of German officers.\nThe division had its original name - SS motorized division 'Germania' - after the name of the regiment 'Germania', transferred from the 2nd SS division (SS reinforcement division, future division 'Das Reich'). From January 1941 - SS volunteer motorized division 'Viking'. In April 1941, two new units were formed in the division: regiment 'Westland' - from the Dutch and Flemings - and regiment 'Nordland' - from the Scandinavians.\nFor a long time, the 'Wiking' division was a Motorized infantry division. Only in October 1943 it became a Panzer division."
+BP_ss_recruitment_event.5.a:0 "Meine Ehre heißt Treue"
+GER_division_wiking_tt:0 "The §Ymotorized 5. SS Division 'Wiking'§! will appear without equipment but full manpower strength."
+
+nord_creation:0 "6. SS-Division 'Nord'"
+BP_ss_recruitment_event.6.t:0 "6. SS-Division 'Nord'"
+BP_ss_recruitment_event.6.d:0 "The SS-Division 'Nord' was created on February 1941 in Norway as SS-Kampfgruppe 'Nord'. It's first action took place in Finland on the Lapland Front in June 1941 and was involved in combat against the Soviets in Finnish Karelia until September 1944.\nAfter suffering heavy losses at Salla in July 1941, it was withdrawn for retraining by experienced Finnish units. It was reorganized and redesignated as an SS-Mountain division in June 1942.\nIn early 1945 it was transferred to the Western front and fought in Alsace-Lorraine and West Germany. In April 1945, the remaining forces were urgently attached to the composition formed in a very short time 38th SS division 'Nibelungen'."
+BP_ss_recruitment_event.6.a:0 "Meine Ehre heißt Treue"
+GER_division_nord_tt:0 "The §Y6. SS-Gebirgs-Division 'Nord'§! will appear without equipment but full manpower strength."
+
+prinz_eugen_creation:0 "7. SS-Division 'Prinz Eugen'"
+BP_ss_recruitment_event.7.t:0 "7. SS-Division 'Prinz Eugen'"
+BP_ss_recruitment_event.7.d:0 "The SS-Division 'Prinz Eugen' was formed in 1942 from Volksdeutsche volunteers (ethnic Germans), as well as conscripts from Banat, the Independent state of Croatia (NDH), Hungary and Romania. The division fought against Yugoslav partisan units in occupied Serbia, puppet Croatia and Montenegro, and became notorious for the exceptional brutality shown to the civilian population.\nIt is named after Prince Eugene of Savoy, a military commander of the Habsburg monarchy, who participated in the liberation of Banat and Belgrade from Turkish invaders during the Austro-Turkish war of 1716-1718. It was one of the most efficient German divisions in the Yugoslav theater of operations.\nAfter heavy fighting, the division reached the Austrian border in early may 1945. It was not until 12 May, four days after the end of the war, that the division laid down its arms. While parts of the Volksdeutsche managed to escape to Austria, most of the remainder were captured by partisan detachments."
+BP_ss_recruitment_event.7.a:0 "Meine Ehre heißt Treue"
+GER_division_prinz_eugen_tt:0 "The §Y§7. SS-Gebirgs-Division 'Prinz Eugen'§! will appear without equipment but full manpower strength."
+
+florian_geyer_creation:0 "8. SS-Division 'Florian Geyer'"
+BP_ss_recruitment_event.8.t:0 "8. SS-Division 'Florian Geyer'"
+BP_ss_recruitment_event.8.d:0 "The SS-Division 'Florian Geyer' was formed in 1942 from a cadre of the SS Cavalry Brigade, which was involved in anti partisan operations behind the front line and was responsible for the extermination of tens of thousands of the civilian population.\nIn January 1942, the brigade suffered serious losses and in April 1942 it was reduced to a combat group under the command of the commander of the 2nd SS cavalry regiment, SS sturmbannfuhrer August Zeender. By this time it was decided not to replenish the SS cavalry brigade, but to begin the formation of a cavalry division. About 40 percent of the division were Danube Swabians from Siebenbürgen (Transylvania) and Banat (Serbia). The training and reserve battalions of the division participated in the suppression of the Warsaw uprising of 1943.\nIn March 1944, it was named after Florian Guyer (1490-1525), a Franconian nobleman who led a Black detachment during the German Peasant war. Later, the veterans of the division formed the nucleus of the 22nd SS Volunteer cavalry division 'Maria Theresa' after its creation on 29 April 1944."
+BP_ss_recruitment_event.8.a:0 "Meine Ehre heißt Treue"
+GER_division_florian_geyer_tt:0 "The §Y8. SS-Kavallerie-Division 'Florian Geyer'§! will appear without equipment but full manpower strength."
+
+hohenstaufen_creation:0 "9. SS-Division 'Hohenstaufen'"
+BP_ss_recruitment_event.9.t:0 "9. SS-Division 'Hohenstaufen'"
+BP_ss_recruitment_event.9.d:0 "The SS-Division 'Hohenstaufen' was one of the later SS formations formed in 1943 together with its sister division, the 10th SS Panzer division 'Frundsberg' - constituting the II SS Panzer corps. To create a division were allocated personnel from the reserve battalion "LSSAH", however, in general, the division was formed by volunteers from all over the Reich. The division was named after the dynasty of German kings and Holy Roman emperors of the German nation of Hohenstaufen, who ruled in 1138-1254 (to this dynasty, including Frederick Barbarossa).\nThe division proved itself during the fighting in Normandy and during the ill-fated operation "Market Garden", became famous in the post-war period because of the book and film "A Bridge Too Far".\nThe division's most famous commander was perhaps its first commander, SS Obergruppenfuhrer Willy Bittrich."
+BP_ss_recruitment_event.9.a:0 "Meine Ehre heißt Treue"
+GER_division_hohenstaufen_tt:0 "The §Y9. SS-Panzer-Division 'Hohenstaufen'§! will appear without equipment but full manpower strength."
+
+frundsberg_creation:0 "10. SS-Division 'Frundsberg'"
+BP_ss_recruitment_event.10.t:0 "10. SS-Division 'Frundsberg'"
+BP_ss_recruitment_event.10.d:0 "The SS-Division 'Frundsberg' was formed in 1943 together with its sister division, the 9. SS-Division 'Hohenstaufen'. Named after Georg von Frundsberg (1473-1528), leader of the XVI century, German landsknechts who helped Charles V, among other things, win the battle of Pavia, the division made its first mark in Normandy, along with Hohenstaufen, with whom it formed the II SS Panzer corps.\nIn late 1944, 'Frundsberg' was based around the Dutch city of Nijmegen, during operation 'Market Garden' - took part in the encirclement and liquidation of the landed British and Polish troops.\nPerhaps the most famous personality 'Frundsberg' was discovered relatively recently, in 2006 - the writer and poet Günter Grass, who at the end of 1944 was drafted into the army at the 17 age. In April 20, 1945 was wounded near the German city of Spremberg during the Spremberg-Torgau operation (one of the last operations of the Soviet troops in the European theater of operations, part of the Berlin offensive) and may 8, 1945 captured at Marienbad (now Marianske Lazne, Czech Republic) by American troops."
+BP_ss_recruitment_event.10.a:0 "Meine Ehre heißt Treue"
+GER_division_frundsberg_tt:0 "The §Y10. SS-Panzer-Division 'Frundsberg'§! will appear without equipment but full manpower strength."
+
+nordland_creation:0 "11. SS-Division 'Nordland'"
+BP_ss_recruitment_event.11.t:0 "11. SS-Division 'Nordland'"
+BP_ss_recruitment_event.11.d:0 "In early 1943, the SS leadership decided to combine Dutch and Scandinavian volunteers who were not part of the 5th SS Panzer division 'Viking' in one unit.\nThe core of the new division, which was formed at Grafenwöhr training camp, was the SS motor infantry regiment 'Nordland' withdrawn from the 'Viking' SS division. In addition, the personnel of the volunteer corps 'Denmark' and the SS Volunteer Legion 'Norway' were used.\nIn addition to Norwegian and Danish volunteers, the division was supplemented by a number of Volksdeutsche from Eastern Europe, as well as Reichsdeutsche, including veterans of the Eastern front.\nSince the Dutch intended for enlistment in the division were included in the 23rd SS volunteer Panzer-Grenadier division 'Netherlands', and the Scandinavian units suffered heavy losses on the Eastern front, the division was finally staffed in November 1943 in Croatia by ethnic semi-Germans and partially Germans of mixed German-Croatian origin.\n \nFrom September 1943, it operated In the South-East of Croatia, fighting against the partisans.\nIn January 1944, the division fought as part of army group North at Leningrad (January-February 1944), then at Narva (March-April 1944) as part of the 3rd SS Panzer corps.\nIn September 1944, the division made a March to Riga, where its arrival prevented the encirclement of the Wehrmacht's 18th army. Then the division slowly retreated and ended up in the Kurland Pocket (October 1944-January 1945).\nIn early 1945, it was evacuated by sea to Pomerania, and participated in heavy fighting at Danzig and Stettin. In April 1945, the division joined the forces defending Berlin, in the battle for which it was destroyed (it capitulated on may 2, 1945)."
+BP_ss_recruitment_event.11.a:0 "Meine Ehre heißt Treue"
+GER_division_nordland_tt:0 "The §Y11. SS-Freiwilligen Panzergrenadier-Division 'Nordland'§! will appear without equipment but full manpower strength."
+
+hitlerjugend_creation:0 "12. SS-Division 'Hitlerjugend'"
+BP_ss_recruitment_event.12.t:0 "12. SS-Division 'Hitlerjugend'"
+BP_ss_recruitment_event.12.d:0 "In January 1943, SS gruppenfuhrer Gottlob Berger proposed to SS Reichsfuhrer Heinrich Himmler to create an SS division from members of the "Hitlerjugend". On February 10, 1943, a decree was issued that allowed the formation of an SS division from conscripts born in 1926 (age — 17 years, previously for volunteers who entered the SS, there was an age limit of 23 years).\n \nThe division, consisting of battle-hardened veterans of the SS Leibstandart and Wehrmacht, as well as ideologically minded teenagers, soon gained fame not only for their bravery on the battlefield, but also for the almost blind fanaticism that was not among the older generations of Waffen-SS personnel. Hitlerjugend forged its fearsome reputation in Normandy, and the young men within its ranks fought bravely until the final days of the war. Its most famous commander was probably the most dashing senior officer in the Waffen-SS - Kurt Panzermeyer Meyer."
+BP_ss_recruitment_event.12.a:0 "Meine Ehre heißt Treue"
+GER_division_hitlerjugend_tt:0 "The §Y12. SS-Division 'Hitlerjugend'§! will appear without equipment but full manpower strength."
+
+handschar_creation:0 "13. SS-Gebirgs-Division 'Handschar' (kroatische Nr. 1)"
+BP_ss_recruitment_event.13.t:0 "13. SS-Gebirgs-Division 'Handschar' (kroatische Nr. 1)"
+BP_ss_recruitment_event.13.d:0 "The military unit was recruited from Bosnian Muslim volunteers in 1943. The soldiers of this division wore round FEZ hats; the buttonholes depicted a hand holding a short scimitar, or Khanjar, under a swastika. The word "Khanjar" (bosn./ Horv. Handžar) is known as the Turkish word, which in turn goes back to Arabic and means a special short sword, which has become a historical national symbol of Muslim Bosnia.\nThe SS-division 'Handschar'  was the largest of the SS-divisions, with 21,065 men in its ranks.\n \nAfter the fall of Sarajevo on 16 April 1941 and the capture of the region by Nazi Germany, a puppet state Independent State of Croatia was created in the future Yugoslav provinces of Croatia, Bosnia and Herzegovina, and parts of Serbia. In the winter of 1942, Reichsfuhrer Heinrich Himmler and SS General Gottlob Berger met with Hitler and proposed the formation of a Bosnian-Croatian SS division. Division was used in operations against Yugoslav partisans and for the capture and destruction of Jews, Roma, and Serbs in the Independent State of Croatia in 1944.\nSince December 1944, in the battles in Hungary against the Red Army almost defeated. In may 1945, the remnants of the division retreated to southern Austria and surrendered to British forces."
+BP_ss_recruitment_event.13.a:0 "Meine Ehre heißt Treue"
+GER_division_handschar_tt:0 "The §Y13. SS-Gebirgs-Division 'Handschar'§! will appear without equipment but full manpower strength."
+
+galizien_creation:0 "14. Waffen-SS Grenadier-Division (galizische Nr. 1)"
+BP_ss_recruitment_event.14.t:0 "14. Waffen-Grenadier-Division der SS (galizische Nr. 1)"
+BP_ss_recruitment_event.14.d:0 "The SS-Division 'Galizien' was a military formation initially made up of volunteers from the region of Galicia with a Ukrainian ethnic background but later also incorporated Slovaks, Czechs and Dutch volunteers and officers. The division was formed in 1943 and was part of the SS forces of Nazi Germany, it was largely destroyed in the battle of Brody, reformed and saw action in Slovakia, Yugoslavia and Austria. In April 1945, it was formally incorporated into the Ukrainian National Army, which was subordinate to the Ukrainian National Committee. The division surrendered to the Western Allies by 10 may 1945."
+BP_ss_recruitment_event.14.a:0 "Meine Ehre heißt Treue"
+BP_ss_recruitment_event.14.b:0 "Allow the OKW to recruit a small number of specialists and support personnel."
+BP_ss_recruitment_event.14.c:0 "Slava Ukrayini!"
+BP_ss_recruitment_event.14.e:0 "Better to ask Germans care about formation..."
+GER_division_galizien_tt:0 "The §Y14. Waffen-SS Division 'Galizien'§! will appear without equipment but full manpower strength."
+
+lettische_creation:0 "15. Waffen-Grenadier-Division der SS (lettische Nr. 1)"
+BP_ss_recruitment_event.15.t:0 "15. Waffen-Grenadier-Division der SS (lettische Nr. 1)"
+BP_ss_recruitment_event.15.d:0 "After the territory of the Latvian SSR was captured by the Wehrmacht in the summer of 1941 and was declared the General District of Latvia (Lettland) of the Reichskommissariat Ostland, mass entry into the Latvian police battalions created by the German occupation authorities began. They also transformed the "self-defense detachments" created by Anti-Soviet elements, which from the first days of the war showed themselves in the mass murder of Jews, Communists, and ordinary civilians.\nThe formed police battalions were named on November 6, 1941 as Security teams (it. Schutzmannschaften, abbreviated Schuma). Due to heavy losses in the winter of 1941/42, these units were soon incorporated into German formations. Thus, the 2nd SS infantry brigade received two Latvian "Schuma" battalions in the autumn of 1941, and four more until may 1943, before being renamed the Latvian SS volunteer brigade on 18 may 1943.\n \nAfter successfully forming and assigning Army group North in November 1943, the division entered the battle of Novosokolniki in the Pskov region to stop the Soviet winter offensive. Despite persistent resistance, the Latvians were unable to stop the Red Army's advance. In July 1944, Soviet troops entered Latvia and occupied Riga on October 13, 1944. When Army group Center broke through in the summer of 1944, the division was mostly destroyed, and the remnants were withdrawn for re-formation in Germany. After the division was re-equipped with Latvian employees of the Reich Labor Service, it was assigned to army group Vistula in early 1945 and was used in West Prussia and Pomerania. In may 1945, it surrendered to the Allied forces in Schwerin."
+BP_ss_recruitment_event.15.a:0 "Meine Ehre heißt Treue"
+GER_division_lettische_tt:0 "The §Y15. SS-Division 'Lettische Nr. 1'§! will appear without equipment but full manpower strength."

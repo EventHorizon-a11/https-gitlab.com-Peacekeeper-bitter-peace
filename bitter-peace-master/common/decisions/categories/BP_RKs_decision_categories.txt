@@ -1,0 +1,16 @@
+###########################
+#### BITTER PEACE RK's ####
+###########################
+
+RKs_interaction_with_the_reich  = {
+
+	icon = ger_reichskommissariats
+
+	allowed = {
+		tag = PGG		
+	}
+
+	visible = {
+		is_subject_of = GER
+	}
+}

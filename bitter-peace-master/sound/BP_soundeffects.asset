@@ -1,0 +1,38 @@
+############# INFANTRY ANIMATION #############
+soundeffect = {
+	name = infantry_lmg_mg34_attack
+	falloff = "falloff_100"
+	sounds = {
+		sound = infantry_lmg_mg34_attack01
+		sound = infantry_lmg_mg34_attack02
+		sound = infantry_lmg_mg34_attack03
+		sound = infantry_lmg_mg34_attack04
+		sound = infantry_lmg_mg34_attack05
+		sound = infantry_lmg_mg34_attack06
+	} 
+	max_audible = 3
+	delay_random_offset = { 0.3 0.10 }
+	max_audible_behaviour = fail
+	is3d = yes
+	volume = 0.3
+	volume_random_offset = { -0.1 0.1 }
+}
+
+soundeffect = {
+	name = infantry_lmg_mg42_attack
+	falloff = "falloff_100"
+	sounds = {
+		sound = infantry_lmg_mg42_attack01
+		sound = infantry_lmg_mg42_attack02
+		sound = infantry_lmg_mg42_attack03
+		sound = infantry_lmg_mg42_attack04
+		sound = infantry_lmg_mg42_attack05
+		sound = infantry_lmg_mg42_attack06
+	} 
+	max_audible = 3
+	delay_random_offset = { 0.3 0.10 }
+	max_audible_behaviour = fail
+	is3d = yes
+	volume = 0.3
+	volume_random_offset = { -0.1 0.1 }
+}

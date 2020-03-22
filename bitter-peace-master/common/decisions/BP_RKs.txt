@@ -1,0 +1,213 @@
+###################################################################################################
+# Bitter Peace RK's Decisions #####################################################################
+###################################################################################################
+
+RKs_interaction_with_the_reich  = {
+	#### Request for small arms by Germany ####
+	RKs_request_small_arms = {
+
+		icon = GFX_decision_generic_industry
+
+		available = {
+			NOT = { has_country_flag = german_equipment_request_active }
+		}
+
+		cost = 35
+		days_remove = 35
+
+		visible = {
+			tag = PGG
+			has_completed_focus = PGG_request_for_military_equipment_2
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				stockpile_ratio = {
+					archetype = infantry_equipment
+					ratio < 0.75
+				}
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 50
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RKs_request_small_arms"
+			set_country_flag = german_equipment_request_active
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove RKs_request_small_arms"
+			GER = { country_event = { id = BP_germany.1 } }
+		}
+	}
+	#### Request for small arms by Germany ####
+	RKs_request_support_equipment = {
+
+		icon = GFX_decision_generic_industry
+
+		available = {
+			NOT = { has_country_flag = german_equipment_request_active }
+		}
+
+		cost = 35
+		days_remove = 35
+
+		visible = {
+			tag = PGG
+			has_completed_focus = PGG_request_for_military_equipment_2
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				stockpile_ratio = {
+					archetype = support_equipment
+					ratio < 0.75
+				}
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 50
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RKs_request_support_equipment"
+			set_country_flag = german_equipment_request_active
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove RKs_request_support_equipment"
+			GER = { country_event = { id = BP_germany.4 } }
+		}
+	}
+	RKs_request_artillery = {
+
+		icon = GFX_decision_ger_military_buildup
+
+		available = {
+			NOT = { has_country_flag = german_equipment_request_active }
+		}
+
+		cost = 45
+		days_remove = 35
+
+		visible = {
+			tag = PGG
+			has_completed_focus = PGG_ask_for_additional_weapon
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				stockpile_ratio = {
+					archetype = artillery_equipment
+					ratio < 0.75
+				}
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 60
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RKs_request_artillery"
+			set_country_flag = german_equipment_request_active
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove RKs_request_artillery"
+			GER = { country_event = { id = BP_germany.6 } }
+		}
+	}
+	RKs_request_vehicles = {
+		icon = GFX_decision_rubber
+
+		available = {
+			NOT = { has_country_flag = german_equipment_request_active }
+		}
+
+		visible = {
+			tag = PGG
+			has_completed_focus = PGG_ask_for_vehicles
+		}
+
+		cost = 50
+		days_remove = 35
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				stockpile_ratio = {
+					archetype = motorized_equipment
+					ratio < 0.75
+				}
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 70
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RKs_request_vehicles"
+			set_country_flag = german_equipment_request_active
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove RKs_request_vehicles"
+			GER = { country_event = { id = BP_germany.9 } }
+		}
+
+	}
+	RKs_request_armored_vehicles = {
+		icon = GFX_decision_generic_tank
+
+		available = {
+			NOT = { has_country_flag = german_equipment_request_active }
+		}
+
+		visible = {
+			tag = PGG
+			has_completed_focus = PGG_ask_for_vehicles
+		}
+
+		cost = 65
+		days_remove = 35
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				stockpile_ratio = {
+					archetype = armored_car_equipment
+					ratio < 0.75
+				}
+			}
+			modifier = {
+				factor = 0
+				has_political_power < 90
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RKs_request_armored_vehicles"
+			set_country_flag = german_equipment_request_active
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove RKs_request_armored_vehicles"
+			GER = { country_event = { id = BP_germany.11 } }
+		}
+
+	}
+}

@@ -1,0 +1,65 @@
+technologies = {
+
+	GER_allgemeine_ss_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+		
+		enable_subunits = {
+			SS_police
+		}	
+	}
+
+	GER_ss_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+		
+		enable_subunits = {
+			SS_marine
+			SS_mountaineers
+			SS_paratrooper
+			###
+			SS_infantry
+			SS_anti_air_brigade
+			SS_artillery_brigade
+			SS_rocket_artillery_brigade
+			SS_anti_tank_brigade
+			###
+			SS_cavalry
+			SS_motorized
+			SS_mot_anti_air_brigade
+			SS_mot_artillery_brigade
+			SS_mot_rocket_artillery_brigade
+			SS_mot_anti_tank_brigade
+			SS_mechanized
+			###
+			SS_light_armor
+			SS_light_sp_anti_air_brigade
+			SS_light_sp_artillery_brigade
+			SS_light_tank_destroyer_brigade
+			SS_medium_armor
+			SS_medium_sp_anti_air_brigade
+			SS_medium_sp_artillery_brigade
+			SS_medium_tank_destroyer_brigade
+			SS_heavy_armor
+			SS_heavy_sp_anti_air_brigade
+			SS_heavy_sp_artillery_brigade
+			SS_heavy_tank_destroyer_brigade
+			SS_super_heavy_armor
+			SS_super_heavy_sp_anti_air_brigade
+			SS_super_heavy_sp_artillery_brigade
+			SS_super_heavy_tank_destroyer_brigade
+			SS_modern_armor
+			SS_modern_sp_anti_air_brigade
+			SS_modern_sp_artillery_brigade
+			SS_modern_tank_destroyer_brigade
+		}	
+	}
+}

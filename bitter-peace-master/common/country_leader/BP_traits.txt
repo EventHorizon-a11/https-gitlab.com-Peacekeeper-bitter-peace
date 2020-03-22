@@ -1,0 +1,381 @@
+leader_traits = {
+	
+	#All RK's
+	reichskommissar = {
+		random = no
+		
+		resistance_decay_on_our_occupied_states = 0.25
+		resistance_damage_to_garrison = 0.25
+		industrial_capacity_factory = -0.20	
+		local_resources_factor = 0.60
+		drift_defence_factor = -0.15			
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Germany
+	hangman = {
+		sprite = 13
+		random = no
+		
+		decryption_factor = 0.05
+		subversive_activites_upkeep = -0.15		
+		foreign_subversive_activites = -0.15
+		non_core_manpower = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	supporter_of_volunteer_legions = {
+		sprite = 13
+		random = no
+		
+	    mobilization_speed = 0.1  
+		conscription_factor = 0.1
+		training_time_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    minister_of_public_enlightenment_and_propaganda = {
+		sprite = 13
+		random = no
+		
+		war_support_factor = 0.1
+		fascism_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    beauftragter_fur_den_vierjahresplan = {
+		sprite = 10
+		random = no
+		
+		industrial_capacity_factory = 0.10
+		production_speed_arms_factory_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	security_police_chief = {
+		sprite = 13
+		random = no
+		
+        foreign_subversive_activites = -0.15 
+        resistance_damage_to_garrison = -0.1
+        political_power_factor = -0.03		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	butcher = {
+		sprite = 13
+		random = no
+		
+		resistance_activity = 0.01
+        resistance_damage_to_garrison = -0.15
+        monthly_population = -0.05	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	minister_of_armaments_and_war_production = {
+		sprite = 10
+		random = yes
+		production_factory_max_efficiency_factor = 0.1
+        line_change_production_efficiency_factor = 0.1
+        industry_repair_factor = 0.1		
+		conversion_cost_civ_to_mil_factor= -0.2
+		# civ_to_mil_industry_conversion_rate = -1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#RK Netherlands
+	net_leider = {
+		sprite = 13
+		random = no
+		
+		fascism_drift = 0.10
+		war_support_factor = 0.10
+		stability_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+    #PGG Polen GeneralGoverment
+	
+	hans_franc_secretary = {
+		sprite = 13
+		random = no
+		
+		political_power_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	bevollmachtigter_des_generalgouverneurs = {
+		sprite = 13
+		random = no
+		
+		fascism_drift = 0.05
+		opinion_gain_monthly_same_ideology_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	beauftragter_fur_den_vierjahresplan_im_gg = {
+		sprite = 10
+		random = no
+		
+		industrial_capacity_factory = 0.10
+		production_speed_arms_factory_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	gouverneur = {
+		sprite = 13
+		random = no
+		
+		political_power_factor = 0.05
+		required_garrison_factor = -10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rassen_und_siedlungsfuhrer = {
+		sprite = 13
+		random = no
+		
+		weekly_manpower = 1000
+		no_compliance_gain = 1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	leiter_der_hauptabteilung_bauwesen = {
+		sprite = 10
+		random = no
+		
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_infrastructure_factor = 0.1
+		research_speed_factor = 0.03
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reichstreuhander_fur_arbeit = {
+		sprite = 13
+		random = no
+		
+		stability_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	goralenfuhrer = { 
+		sprite = 13
+		random = no
+		
+		compliance_growth = 0.05
+		resistance_activity = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	general_of_the_cavalry = {
+		sprite = 5
+		random = no
+		
+		cavalry_attack_factor = 0.1
+		cavalry_defence_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	wilhelm_koppe_security_police_chief = {
+		sprite = 5
+		random = no
+		
+		political_power_factor = -0.031	
+		army_morale_factor = 0.05
+        resistance_damage_to_garrison = -0.1
+ 		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	friedrich_kruger_prince_of_terror = {
+		sprite = 5
+		random = no
+		
+		political_power_factor = -0.01
+		resistance_growth = -0.05
+		attrition = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#RK Ukraine	
+    supporter_of_corporatism = {
+		random = no
+		
+		production_factory_max_efficiency_factor = 0.1
+        line_change_production_efficiency_factor = 0.1
+		industrial_capacity_factory = 0.05
+		industrial_capacity_dockyard = 0.05
+		consumer_goods_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    ideologist_of_the_NSDAP = {
+		random = no
+		
+		drift_defence_factor = 0.15
+		political_power_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    supporter_of_ukrainian_independence = {
+		random = no
+		
+		autonomy_gain = 0.25
+		drift_defence_factor = 0.1
+		political_power_factor = -0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    public_figure = {
+		random = no
+		
+		drift_defence_factor = 0.15
+		political_power_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	nationalist_theorist = {
+		random = no
+		
+		war_support_factor = 0.05
+        fascism_drift = 0.1		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_spiritual_leader_of_the_nation = {
+		random = no
+		
+        stability_factor = 0.05
+        political_power_factor = -0.01	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	racist_ideologist = {
+		random = no
+		
+        war_support_factor = 0.05
+        political_power_factor = -0.01	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pavel_shandruk_theorist = {
+		sprite = 14
+		
+		experience_gain_army = 0.05
+		
+		ai_will_do = {
+			factor = 500
+		}
+	}
+	
+	field_commander = { 
+		sprite = 5
+		army_infantry_attack_factor = 0.15
+		army_infantry_defence_factor = 0.15
+		
+		ai_will_do = {
+			factor = 3
+		}
+	}
+	
+	army_chief_drill_4 = { 
+		sprite = 5
+        mobilization_speed = 0.1
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	army_chief_drill_5 = { 
+		sprite = 5
+        special_forces_attack_factor = 0.1
+		special_forces_defence_factor = 0.1
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+}

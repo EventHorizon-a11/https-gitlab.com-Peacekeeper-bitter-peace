@@ -1,0 +1,89 @@
+#####################
+# Company traits
+#####################
+
+#####################
+# General industry
+#####################
+
+
+#####################
+# Weapons Manufacturer Traits
+#####################
+leader_traits = {
+
+	### Infantry ###
+	infantry_equipment_producer_mass_1 = {
+		random = no
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.1
+
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_equipment_producer_mass_2 = {
+		random = no
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.15
+
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### Air ###
+	aircraft_repair_workshop = {
+		random = no
+		equipment_bonus = {
+			fighter_equipment = {
+				build_cost_ic = -0.2
+				instant = yes
+			}
+			cv_fighter_equipment = {
+				build_cost_ic = -0.2
+				instant = yes
+			}
+			CAS_equipment = {
+				build_cost_ic = -0.2
+				instant = yes
+			}
+			cv_CAS_equipment = {
+				build_cost_ic = -0.2
+				instant = yes
+			}
+			cv_nav_bomber_equipment = {
+				build_cost_ic = -0.2
+				instant = yes
+			}
+			nav_bomber_equipment = {
+				build_cost_ic = -0.2
+				instant = yes
+			}
+			tac_bomber_equipment = {
+				build_cost_ic = -0.2
+				instant = yes
+			}
+			heavy_fighter_equipment = {
+				build_cost_ic = -0.2
+				instant = yes
+			}
+			strat_bomber_equipment = {
+				build_cost_ic = -0.2
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

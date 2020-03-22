@@ -1,0 +1,1339 @@
+ideas = {
+    ### Country Spirits ###
+	country = {
+	
+	    PGG_hans_frank_administration = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_hans_frank_administration"}
+			
+			picture = generic_pp_unity_bonus
+			
+			removal_cost = -1
+			
+		    allowed = { 
+				always = no 
+			}
+			
+		    allowed_civil_war = { 
+				has_government = fascism 
+			}
+	
+		    modifier = {
+                political_power_factor = 0.05				
+		    }
+	    }
+		
+		PGG_blue_police1 = { # Granatova Police after 1 focus
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_hilfspolizei1"}
+			
+			picture = generic_intel_bonus
+			
+			removal_cost = -1
+			
+			allowed = {
+			    always = no
+		    }
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+	
+			modifier = {
+		        resistance_damage_to_garrison = -0.05
+				drift_defence_factor = 0.05
+			}
+		}		
+		
+		PGG_issuing_bank_in_poland = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_issuing_bank_in_poland"}
+			
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+	
+			allowed = { 
+				always = no 
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+		
+			modifier = {
+                consumer_goods_factor = -0.05
+			}
+		}
+		
+		PGG_unternehmen_tannenberg = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_unternehmen_tannenberg"}
+		
+			picture = chi_war_of_resistance3
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+	
+			modifier = {
+				political_power_gain = 0.5
+				stability_weekly = -0.001
+				resistance_growth = 0.10
+				monthly_population = -0.1				
+			}
+		}
+
+		PGG_german_propaganda  = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_german_propaganda"}
+			
+			picture = generic_morale_bonus
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				compliance_growth = 0.05
+				fascism_drift = 0.01
+			}
+		}
+
+		PGG_konzentrationslager = { #KZ
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_konzentrationslager"}
+			
+			picture = chi_war_of_resistance3
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = {
+				resistance_activity = -0.10
+			}
+		}
+		
+		PGG_arbeitslager = { #AL
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_arbeitslager"}
+			
+			picture = chi_war_of_resistance3
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = {
+				stability_factor = -0.05	
+				industrial_capacity_factory = 0.03
+				production_speed_buildings_factor = 0.03
+				resistance_activity = -0.10
+			}
+		}
+		
+		PGG_privileges_for_volksdeutsche_ahf = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_privileges_for_volksdeutsche_ahf"}
+		
+			picture = generic_volunteer_expedition_bonus
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+	
+			modifier = {
+				political_power_factor = 0.05
+				war_support_factor = 0.05
+				conscription_factor = 0.03
+			}
+		}
+		
+		PGG_segregation_policy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_segregation_policy"}
+		
+			picture = idea_tfv_can_conscription_crisis
+			
+			removal_cost = -1
+			
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			modifier = {
+				political_power_factor = 0.05
+				occupation_cost = -10			
+			}
+		}
+		
+		PGG_old_germanization = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_old_germanization"}
+			
+			picture = ger_revive_the_kaiserreich
+
+		    removal_cost = -1
+			
+		    allowed = {
+			    always = no
+		    }
+
+		    allowed_civil_war = {
+			    has_government = fascism
+		    }
+			
+		    modifier = {
+			    stability_factor = 0.05
+                compliance_growth = 0.05							
+		    }
+		}
+
+		PGG_fragmentation_of_the_polish_ethnos = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_fragmentation_of_the_polish_ethnos"}
+			
+			picture = generic_morale_bonus
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = {
+				war_support_factor = 0.05
+				resistance_decay = 0.1
+				fascism_drift = 0.02
+			}
+		}
+		
+		PGG_collaboration_propaganda = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_collaboration_propaganda"}
+			
+			picture = generic_morale_bonus
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = {
+				stability_factor = 0.10
+				compliance_growth = 0.10
+				fascism_drift = 0.05
+			}
+		}
+		
+		PGG_more_slaves = { #AL 2 - segregation policy
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_more_slaves"}
+			
+			picture = chi_war_of_resistance3
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = {
+				resistance_activity = -0.10
+				resistance_growth = 0.10
+				resistance_garrison_penetration_chance = 0.15			
+				local_resources_factor = 0.1	
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1							
+			}
+		}
+		
+		PGG_more_food_for_the_loyal_workers = { #AL 2 - old germanization
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_more_slaves"}
+			
+			picture = chi_war_of_resistance3
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = {
+				resistance_activity = -0.10
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05	
+				compliance_gain = 0.10	
+			}
+		}
+		
+		PGG_german_aristocracy_polish_slaves1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_german_aristocracy_polish_slaves1"}
+		
+			picture = idea_tfv_can_conscription_crisis
+			
+			removal_cost = -1
+			
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			modifier = {
+				political_power_factor = 0.15
+				occupation_cost = -10	
+				resistance_garrison_penetration_chance = 0.05
+				resistance_activity = -0.10
+			}
+		}
+		
+		PGG_german_aristocracy_polish_slaves2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_german_aristocracy_polish_slaves2"}
+			
+			picture = ger_revive_the_kaiserreich
+
+		    removal_cost = -1
+			
+		    allowed = {
+			    always = no
+		    }
+
+		    allowed_civil_war = {
+			    has_government = fascism
+		    }
+			
+		    modifier = {
+			    stability_factor = 0.10
+                compliance_growth = 0.05
+				resistance_garrison_penetration_chance = 0.05
+				resistance_activity = -0.10
+		    }
+		}
+		
+		PGG_german_aristocracy_polish_inferiors1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_german_aristocracy_polish_inferiors1"}
+		
+			picture = idea_tfv_can_conscription_crisis
+			
+			removal_cost = -1
+			
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			modifier = {
+				political_power_factor = 0.10
+				occupation_cost = -10	
+				non_core_manpower = 0.05
+				compliance_growth = 0.05				
+			}
+		}
+		
+		PGG_german_aristocracy_polish_inferiors2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_german_aristocracy_polish_inferiors2"}
+			
+			picture = ger_revive_the_kaiserreich
+
+		    removal_cost = -1
+			
+		    allowed = {
+			    always = no
+		    }
+
+		    allowed_civil_war = {
+			    has_government = fascism
+		    }
+			
+		    modifier = {
+			    stability_factor = 0.10
+				compliance_growth = 0.10
+				non_core_manpower = 0.10
+		    }
+		}
+		
+		PGG_gestapo = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_gestapo"}
+			
+			picture = gestapo
+
+		    removal_cost = -1
+			
+		    allowed = {
+			    always = no
+		    }
+
+		    allowed_civil_war = {
+			    has_government = fascism
+		    }
+			
+		    modifier = {
+                foreign_subversive_activites = -0.15 	
+				resistance_garrison_penetration_chance = -0.10
+		    }
+		}
+		
+		PGG_blue_police2 = { # Modification of Granatova Police after Sonderdienst
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_blue_police2"}
+			
+			picture = generic_intel_bonus
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = {
+				army_org = 2
+		        resistance_damage_to_garrison = -0.10				
+			}
+		}
+
+		PGG_camp_travniki = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_camp_travniki"}
+			
+			picture = gestapo
+
+		    removal_cost = -1
+			
+		    allowed = {
+			    always = no
+		    }
+
+		    allowed_civil_war = {
+			    has_government = fascism
+		    }
+
+		    modifier = {
+				foreign_subversive_activites = -0.15 	
+				resistance_garrison_penetration_chance = -0.10
+			    conscription_factor = 0.01
+				training_time_factor = -0.05	
+                mobilization_speed = 0.05				
+		    }
+		}	
+
+		### Resistance problems
+		PGG_fighting_the_underground_state	= {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_fighting_the_underground_state"}
+			
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			removal_cost = -1
+			
+			allowed = {
+			    always = no
+		    }
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+		
+			modifier = { 
+			    political_power_factor = -0.03
+				stability_factor = -0.05
+				drift_defence_factor = -0.15
+				monthly_population = -0.05
+			}
+		}
+		
+		PGG_armia_krajowa = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_armia_krajowa"}
+			
+			picture = idea_tfv_can_conscription_crisis
+			
+			removal_cost = -1
+			
+			allowed = {
+			    always = no
+		    }
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = { 
+			    political_power_factor = -0.01
+				stability_factor = -0.05
+				drift_defence_factor = -0.1
+				monthly_population = -0.03
+				neutrality_drift = 0.01
+			}
+		}
+		
+		PGG_narodowe_sily_zbrojne = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_narodowe_sily_zbrojne"}
+			
+			picture = generic_war_preparation
+			
+			removal_cost = -1
+			
+			allowed = { 
+				always = no 
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				army_org_Factor = 0.05
+			    army_morale_factor = 0.05
+				training_time_army_factor = -0.1
+				mobilization_speed = 0.1
+			}
+		}
+
+        PGG_armia_ludowa = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_armia_ludowa"}
+		
+			picture = communist_partizans
+			
+			removal_cost = -1
+			
+			allowed = {
+			    always = no
+		    }
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+	
+			modifier = { 
+			    political_power_factor = -0.01
+				stability_factor = -0.05
+				drift_defence_factor = -0.1
+				monthly_population = -0.03
+				communism_drift = 0.01 
+			}
+		}
+		
+		PGG_racial_decrees = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_racial_decrees"}
+			
+			picture = juden
+
+		    removal_cost = -1
+			
+		    allowed = {
+			    always = no
+		    }
+
+		    allowed_civil_war = {
+			    has_government = fascism
+		    }		
+			
+		    modifier = {
+			    stability_factor = -0.05 
+			    war_support_factor = 0.05  
+                political_power_factor = 0.03	
+		    }
+		}
+		
+		GER_lebensborn = {
+			
+			picture = lebensborn
+
+		    removal_cost = -1
+			
+		    allowed = {
+			    always = no
+		    }
+
+		    allowed_civil_war = {
+			    has_government = fascism
+		    }
+	
+		    modifier = {
+			    monthly_population = 0.02							
+		    }
+		}		
+
+		PGG_goralenvolk_integrate = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_goralenvolk_autonomy"}
+			
+			picture = generic_local_self_management
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			modifier = {
+			    stability_factor = -0.05 
+				conscription_factor = 0.05
+				monthly_population = 0.05
+			}
+		}
+		
+		PGG_goralenvolk_autonomy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_goralenvolk_autonomy"}
+			
+			picture = generic_local_self_management
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+		PGG_volksdeutsche = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_volksdeutsche"}
+			
+			picture = generic_prc_low_popular_support3
+			
+			removal_cost = -1
+			
+			allowed = { 
+				always = no 
+			}
+			
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			modifier = {
+				monthly_population = 0.1
+				political_power_factor = -0.01
+			}
+		}		
+
+		PGG_dig_deep_and_greedily = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_dig_deep_and_greedily"}
+		
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			allowed = {
+			    always = no
+		    }
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+		
+			modifier = {
+                stability_factor = -0.1
+				drift_defence_factor = -0.15
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.20
+				production_speed_infrastructure_factor = 0.1
+			    production_speed_industrial_complex_factor = 0.1
+				industry_repair_factor = 0.1
+			}
+		}
+		
+		PGG_balanced_economic_system = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_balanced_economic_system"}
+			
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			allowed = {
+			    always = no
+		    }
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+	
+			modifier = {
+			    production_factory_max_efficiency_factor = 0.05
+                line_change_production_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.05
+				political_power_factor = -0.05
+				consumer_goods_factor = 0.05
+				production_speed_infrastructure_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				industry_repair_factor = 0.05
+			}
+		}
+		
+		PGG_polish_decrees = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_polish_decrees"}
+			
+			picture = ast_all_in
+			
+			removal_cost = -1
+			
+			allowed = {
+			    always = no
+		    }
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+	
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		PGG_civilarbeiter = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_civilarbeiter"}
+			
+			picture = great_depression
+			
+			removal_cost = -1
+			
+			allowed = { 
+				always = no 
+			}
+			
+			allowed_civil_war = {
+				has_government = fascism
+			}
+	
+			modifier = {
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+			    production_speed_industrial_complex_factor = -0.05
+				consumer_goods_factor = 0.05
+				monthly_population = -0.1				
+			}
+		}
+		
+		###
+		PGG_jewish_own = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_jewish_own"}
+			
+			picture = juden
+			
+			removal_cost = -1
+		
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+	
+			modifier = {
+                consumer_goods_factor = -0.03
+			}
+		}
+
+        PGG_extraordinary_actions = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_extraordinary_actions"}
+			
+			picture = tfv_can_conscription_crisis
+			
+			removal_cost = -1
+
+			allowed = { 
+				always = no 
+			}
+		
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			modifier = {
+                political_power_factor = 0.03
+			}
+		}
+	}
+
+	political_advisor = {
+
+		PGG_wilhelm_heuber = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_wilhelm_heuber"}
+		
+			picture = wilhelm_heuber
+			
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+				has_completed_focus = PGG_german_propaganda
+			}
+			
+			traits = { bevollmachtigter_des_generalgouverneurs }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		PGG_walter_emmerich = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_walter_emmerich"}
+		
+		    picture = walter_emmerich
+			
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+				NOT = { has_idea = PGG_herman_sienkowski }
+			}
+			
+			traits = { beauftragter_fur_den_vierjahresplan_im_gg }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+        PGG_herman_sienkowski = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_herman_sienkowski"}
+		
+		    picture = herman_sienkowski
+			
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+				NOT = { has_idea = PGG_walter_emmerich }
+			}
+			
+			traits = { financial_expert }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		PGG_josef_buhler = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_josef_buhler"}
+		
+			picture = josef_buhler
+			
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+			}
+			
+			traits = { hans_franc_secretary }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		PGG_richard_wendler = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_richard_wendler"}
+		
+			picture = richard_wendler
+			
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+			}
+			
+			traits = { gouverneur }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		PGG_theodor_bauder = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_theodor_bauder"}
+		
+			picture = generic_political_advisor_europe_4
+			
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+			}
+			
+			traits = { leiter_der_hauptabteilung_bauwesen }
+			
+			on_add = {
+				custom_effect_tooltip = GER_bauder_hft
+			}
+			
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		
+		PGG_max_frauendorfer = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_max_frauendorfer"}
+	
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+			}
+			
+			traits = { reichstreuhander_fur_arbeit }
+			
+			ai_will_do = {
+				factor = 0
+			}	
+		}
+
+		PGG_odilo_globocnik = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_odilo_globocnik"}
+		
+		    picture = odilo_globocnik
+			
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+			}
+			
+			traits = { butcher }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		PGG_ernst_lerch = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_ernst_lerch"}
+		
+		    picture = ernst_lerch
+			
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+			}
+			
+			traits = { rassen_und_siedlungsfuhrer }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		PGG_waclaw_krzeptowski = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_waclaw_krzeptowski"}
+		
+		    picture = waclaw_krzeptowski
+			
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+			}
+			
+			traits = { goralenfuhrer }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}	
+	
+	theorist = {
+		
+		PGG_generic_military_theorist = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_generic_military_theorist"}
+			ledger = army
+
+			picture = generic_army_europe_6
+			
+			allowed = {
+				original_tag = PGG
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	# MILITARY
+	army_chief = {
+
+		PGG_curt_ludwig_von_gienanth = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_curt_ludwig_von_gienanth"}
+		
+			picture = curt_ludwig_von_gienanth
+
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+			}
+			
+			traits = { general_of_the_cavalry }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		PGG_siegfried_haenicke1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_siegfried_haenicke1"}
+		
+			picture = siegfried_haenicke
+
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+			}
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	air_chief = {
+	
+		PGG_goering2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_goering2"}
+	
+			picture = goering
+	
+			allowed = {
+				original_tag = PGG
+			}
+
+			available = {
+				has_government = fascism
+			}
+
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	navy_chief = {
+	
+		PGG_raeder = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_raeder"}
+		
+			picture = raeder
+
+			allowed = {
+				original_tag = PGG
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		PGG_siegfried_haenicke2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_siegfried_haenicke2"}
+			ledger = army
+		
+			picture = siegfried_haenicke
+
+			allowed = {
+				original_tag = PGG
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PGG_wilhelm_koppe = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_wilhelm_koppe"}
+			ledger = army
+		
+		    picture = wilhelm_koppe
+			
+			allowed = {
+				original_tag = PGG
+			}
+			
+			traits = { wilhelm_koppe_security_police_chief }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+        PGG_friedrich_kruger = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_friedrich_kruger"}
+			ledger = army
+		
+		    picture = friedrich_kruger
+			
+			allowed = {
+				original_tag = PGG
+			}
+			
+			traits = { friedrich_kruger_prince_of_terror }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		PGG_generic_air_bomber_interception = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_generic_air_bomber_interception"}
+			ledger = air
+		
+			picture = generic_air_europe_3
+	
+			allowed = {
+				original_tag = PGG
+			}
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	industrial_concern = {
+		
+		PGG_ig_faben = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_ig_faben"}
+			
+			picture = ig_faben
+			
+			allowed = {
+				original_tag = PGG
+			}
+			
+			available = {
+				has_completed_focus = PGG_dye_production_companies_IG_Farben
+			}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.1
+			}
+			
+			traits = { refinery_concern }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		PGG_baudienst = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_baudienst"}
+		
+			picture = baudienst
+			
+			allowed = {
+				original_tag = PGG
+			}
+		
+			available = {
+				has_completed_focus = PGG_baudienst
+			}		
+		
+			research_bonus = {
+				industry = 0.10	
+			}
+			
+			traits = { industrial_concern }
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PGG_siemens = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_siemens"}
+		
+			picture = siemens
+			
+			allowed = {
+				original_tag = PGG
+			}
+			
+			available = {
+				has_completed_focus = PGG_scientific_cooperation
+			}					
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+	}
+	
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		PGG_RHG = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_RHG"}
+		
+			picture = RHG
+			
+			allowed = {
+				original_tag = PGG
+			}
+			
+			available = {
+				has_completed_focus = PGG_reichswerke_goring
+			}
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}		
+		}
+		
+		PGG_DAW = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PGG_DAW"}
+
+			picture = DAW
+		
+			allowed = {
+				original_tag = PGG
+			}
+			
+			available = {
+				has_completed_focus = PGG_deutsche_ausrustungswerke
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_producer_mass_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}
